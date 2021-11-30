@@ -20,7 +20,6 @@ function test() {
 ## :white_check_mark: Data Science
 ## :white_check_mark: DSA
 ## :white_check_mark: OS
-## :white_check_mark: WebDev
 ## :white_check_mark: Programming Languages
    * ### C
    * ### C++
@@ -36,3 +35,11 @@ function test() {
        * ##### Python Object Oriented
        * ##### Secure Code
        * ##### Software Architecture
+
+## :white_check_mark: WebDev
+   * ### Development
+     * #### [JavaScript](Web%20Technologies/Development/JavaScript/JavaScript.MD)
+
+
+
+
