@@ -26,7 +26,7 @@ function test() {
    * ### C#
    * ### Golang
    * ### Java
-   * ### Python
+   * ### [Python](Programming Languages/Python/Python.MD)
      * #### Software Architecture, & Engineering
        * ##### Clean Code
        * ##### Complexity & Performance
