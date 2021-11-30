@@ -19,6 +19,18 @@ function test() {
 ## :white_check_mark: Cybersecurity
 ## :white_check_mark: Data Science
 ## :white_check_mark: DSA
+   * ### Algorithms
+     * #### Test 
+   * ### Big O Notation
+   * ### Data Structures
+     * #### Data Types
+       * ##### Primitive Types
+       * ##### Non-Primitive Types
+       * ##### Abstract Data Types
+     * #### Linear Data Structures
+     * #### Trees
+     * #### Hash-based Structures
+     * #### Graphs 
 ## :white_check_mark: OS
 ## :white_check_mark: Programming Languages
    * ### C
