@@ -1,5 +1,7 @@
 # ScriptKKiddie's Notes
-###### by Shobhit Sharma
+###### by Shobhit Sharma 
+![image]({BadgeURLHere})
+[![Linkedin](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white) LinkedIn](https://www.linkedin.com/)
 
 https://www.getrevue.co/profile/scriptkkiddie
 
