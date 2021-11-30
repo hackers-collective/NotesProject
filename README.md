@@ -18,6 +18,7 @@ function test() {
      * 
 ## :white_check_mark: Cybersecurity
 ## :white_check_mark: Data Science
+## :white_check_mark: DevOps
 ## :white_check_mark: DSA
    * ### Algorithms
      * #### Test 
@@ -31,6 +32,7 @@ function test() {
      * #### Trees
      * #### Hash-based Structures
      * #### Graphs 
+## :white_check_mark: MLOps
 ## :white_check_mark: OS
 ## :white_check_mark: Programming Languages
    * ### C
