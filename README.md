@@ -18,6 +18,9 @@ function test() {
      * 
 ## :white_check_mark: Cybersecurity
 ## :white_check_mark: Data Science
+   * ### Artificial Intelligence
+     * #### Machine Learning
+     * #### Deep Learning
 ## :white_check_mark: DevOps
 ## :white_check_mark: DSA
    * ### Algorithms
