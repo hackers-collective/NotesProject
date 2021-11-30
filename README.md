@@ -10,7 +10,11 @@ function test() {
 ```
 
 ## Big Data
+   * Hadoop
 ## Cloud
+   * AWS
+     * EC2
+     * 
 ## Cybersecurity
 ## Data Science
 ## DSA
