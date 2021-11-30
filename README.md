@@ -50,9 +50,10 @@ function test() {
        * ##### Secure Code
        * ##### Software Architecture
 
-## :white_check_mark: WebDev
+## :white_check_mark: Web Technologies
    * ### Development
      * #### [JavaScript](Web%20Technologies/Development/JavaScript/JavaScript.MD)
+     * #### [TypeScript](Web%20Technologies/Development/TypeScript/TypeScript.MD)
 
 
 
