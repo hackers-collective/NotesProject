@@ -6,6 +6,8 @@ https://www.getrevue.co/profile/scriptkkiddie
 
  > ## _Education should be Right, & Right of Everyone ~ [Vimal Daga](https://www.linkedin.com/in/vimaldaga)_
 
+Conventions Used
+
 ```javascript
 function test() {
  console.log("look ma’, no spaces");
