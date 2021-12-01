@@ -4,7 +4,7 @@
 
 https://www.getrevue.co/profile/scriptkkiddie
 
- > ## _Education should be Right, & Right of Everyone ~ Vimal Daga_
+ > ## _Education should be Right, & Right of Everyone ~ [Vimal Daga](https://www.linkedin.com/in/vimaldaga)_
 
 ```javascript
 function test() {
@@ -24,7 +24,7 @@ function test() {
      * #### Machine Learning
      * #### Deep Learning
 ## :white_check_mark: DevOps
-   * ### Configuration Management
+   * ### Continuous Configuration Automation (CCA)
      * #### [Ansible](DevOps/Continuous%20Configuration%20Automation/Ansible/README.MD)
      * #### [CFEngine](DevOps/Continuous%20Configuration%20Automation/CFEngine/README.MD)
      * #### [Chef](DevOps/Continuous%20Configuration%20Automation/Chef/README.MD)
