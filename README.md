@@ -25,14 +25,14 @@ function test() {
      * #### Deep Learning
 ## :white_check_mark: DevOps
    * ### Configuration Management
-     * #### [Ansible](DevOps/Continuous%20Configuration%20Automation/Ansible/Ansible.MD)
-     * #### [CFEngine](DevOps/Continuous%20Configuration%20Automation/CFEngine/CFEngine.MD)
-     * #### [Chef](DevOps/Continuous%20Configuration%20Automation/Chef/Chef.MD)
-     * #### [Otter](DevOps/Continuous%20Configuration%20Automation/Otter/Otter.MD)
-     * #### [Pulumi](DevOps/Continuous%20Configuration%20Automation/Pulumi/Pulumi.MD)
-     * #### [Puppet](DevOps/Continuous%20Configuration%20Automation/Puppet/Puppet.MD)
-     * #### [SaltStack](DevOps/Continuous%20Configuration%20Automation/SaltStack/SaltStack.MD)
-     * #### [Terraform](DevOps/Continuous%20Configuration%20Automation/Terraform/Terraform.MD)
+     * #### [Ansible](DevOps/Continuous%20Configuration%20Automation/Ansible/README.MD)
+     * #### [CFEngine](DevOps/Continuous%20Configuration%20Automation/CFEngine/README.MD)
+     * #### [Chef](DevOps/Continuous%20Configuration%20Automation/Chef/README.MD)
+     * #### [Otter](DevOps/Continuous%20Configuration%20Automation/Otter/README.MD)
+     * #### [Pulumi](DevOps/Continuous%20Configuration%20Automation/Pulumi/README.MD)
+     * #### [Puppet](DevOps/Continuous%20Configuration%20Automation/Puppet/README.MD)
+     * #### [SaltStack](DevOps/Continuous%20Configuration%20Automation/SaltStack/README.MD)
+     * #### [Terraform](DevOps/Continuous%20Configuration%20Automation/Terraform/README.MD)
 ## :white_check_mark: DevSecOps
 ## :white_check_mark: DSA
    * ### Algorithms
@@ -56,7 +56,7 @@ function test() {
    * ### C#
    * ### Golang
    * ### Java
-   * ### [Python](Programming%20Languages/Python/Python.MD)
+   * ### [Python](Programming%20Languages/Python/README.MD)
      * #### Software Architecture, & Engineering
        * ##### Clean Code
        * ##### Complexity & Performance
@@ -68,8 +68,8 @@ function test() {
 
 ## :white_check_mark: Web Technologies
    * ### Development
-     * #### [JavaScript](Web%20Technologies/Development/JavaScript/JavaScript.MD)
-     * #### [TypeScript](Web%20Technologies/Development/TypeScript/TypeScript.MD)
+     * #### [JavaScript](Web%20Technologies/Development/JavaScript/README.MD)
+     * #### [TypeScript](Web%20Technologies/Development/TypeScript/README.MD)
 
 
 
