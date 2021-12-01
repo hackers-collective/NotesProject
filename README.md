@@ -25,7 +25,14 @@ function test() {
      * #### Deep Learning
 ## :white_check_mark: DevOps
    * ### Configuration Management
-     * #### [Ansible](DevOps/Configuration%20Management/Ansible/Ansible.MD)
+     * #### [Ansible](DevOps/Continuous%20Configuration%20Automation/Ansible/Ansible.MD)
+     * #### [CFEngine](DevOps/Continuous%20Configuration%20Automation/CFEngine/CFEngine.MD)
+     * #### [Chef](DevOps/Continuous%20Configuration%20Automation/Chef/Chef.MD)
+     * #### [Otter](DevOps/Continuous%20Configuration%20Automation/Otter/Otter.MD)
+     * #### [Pulumi](DevOps/Continuous%20Configuration%20Automation/Pulumi/Pulumi.MD)
+     * #### [Puppet](DevOps/Continuous%20Configuration%20Automation/Puppet/Puppet.MD)
+     * #### [SaltStack](DevOps/Continuous%20Configuration%20Automation/SaltStack/SaltStack.MD)
+     * #### [Terraform](DevOps/Continuous%20Configuration%20Automation/Terraform/Terraform.MD)
 ## :white_check_mark: DevSecOps
 ## :white_check_mark: DSA
    * ### Algorithms
