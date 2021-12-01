@@ -53,20 +53,30 @@ function test() {
      * #### TeamCity
      * #### Vexor
    
-   * ### Linux Containers
+   * ### OS-level Virtualization
+     * #### Bottlerocket
+     * #### Charliecloud
+     * #### chroot
      * #### Docker
+     * #### FreeBSD jail
+     * #### iCore Virtual Accounts
+     * #### Kata Containers
      * #### Linux-VServer
-     * #### Imctfy
+     * #### lmctfy
      * #### LXC
      * #### LXD
      * #### OpenVZ
-     * #### Rkt
-     * #### Singularity
-     * #### systemd-nspawn
      * #### Podman
-     * #### Charliecloud
-     * #### Kata Containers
-     * #### Bottlerocket
+     * #### rkt
+     * #### Sandboxie
+     * #### Singularity
+     * #### Solaris Containers
+     * #### sysjail
+     * #### systemd-nspawn
+     * #### Turbo
+     * #### Virtuozzo
+     * #### vkernel
+     * #### WPARs
 ## :white_check_mark: DevSecOps
 ## :white_check_mark: DSA
    * ### Algorithms
