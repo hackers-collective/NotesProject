@@ -36,6 +36,23 @@ function test() {
      * #### [SaltStack](DevOps/Continuous%20Configuration%20Automation/SaltStack/README.MD)
      * #### [Terraform](DevOps/Continuous%20Configuration%20Automation/Terraform/README.MD)
    
+   * ### CI/CD
+     * #### Apache Gump
+     * #### AppVeyor
+     * #### Azure DevOps Server
+     * #### Bamboo
+     * #### Buddy
+     * #### Buildbot
+     * #### BuildMaster
+     * #### GitLab
+     * #### GoCD
+     * #### Jenkins
+     * #### OpenMake Software Meister
+     * #### Semaphore
+     * #### Travis CI
+     * #### TeamCity
+     * #### Vexor
+   
    * ### Linux Containers
      * #### Docker
      * #### Linux-VServer
