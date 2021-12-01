@@ -4,6 +4,8 @@
 
 https://www.getrevue.co/profile/scriptkkiddie
 
+ > ## _Education should be Right, & Right of Everyone ~ Vimal Daga_
+
 ```javascript
 function test() {
  console.log("look ma’, no spaces");
@@ -22,6 +24,9 @@ function test() {
      * #### Machine Learning
      * #### Deep Learning
 ## :white_check_mark: DevOps
+   * ### Configuration Management
+     * Ansible
+## :white_check_mark: DevSecOps
 ## :white_check_mark: DSA
    * ### Algorithms
      * #### Test 
@@ -35,6 +40,7 @@ function test() {
      * #### Trees
      * #### Hash-based Structures
      * #### Graphs 
+## :white_check_mark: Internet of Things (IoT)
 ## :white_check_mark: MLOps
 ## :white_check_mark: OS
 ## :white_check_mark: Programming Languages
