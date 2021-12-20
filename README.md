@@ -117,6 +117,7 @@ function test() {
      
    * ### CMS
      * #### [Blogger](Web%20Technologies/CMS/Blogger/README.MD)
+     * #### [Wordpress](Web%20Technologies/CMS/Wordpress/README.MD)
 
 
 ## :white_check_mark: Troubleshooting
