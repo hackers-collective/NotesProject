@@ -114,6 +114,9 @@ function test() {
    * ### Development
      * #### [JavaScript](Web%20Technologies/Development/JavaScript/README.MD)
      * #### [TypeScript](Web%20Technologies/Development/TypeScript/README.MD)
+     
+   * ### CMS
+     * #### [Blogger](Web%20Technologies/CMS/Blogger/README.MD)
 
 
 ## :white_check_mark: Troubleshooting
