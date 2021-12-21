@@ -52,3 +52,8 @@ Note that the include only runs while the index is less than 10, so only a max o
   Title: <data.post.title/>
 </b:includable>
 ```
+
+### Date Output (data:)
+**Examples**
+- <data.title/> would print out the title of widget
+- <data.photo.url/>
