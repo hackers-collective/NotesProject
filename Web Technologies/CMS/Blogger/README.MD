@@ -100,3 +100,61 @@ A loop tag allows you to interate accross an inclusive number range, such as '1 
   <li><data:i /></li>
 </b:loop>
 ```
+
+**Index Attribute**
+Loop tags also have an optional index attribute, which gives the zero-based index of the current iteration through the loop.
+
+```html
+<ul>
+  <b:loop var='number' index='index' values='9 to 7'>
+    <li>Index: <data:index />, Number: <data:number /></li>
+  </b:loop>
+</ul>
+```
+
+This example would create an unordered list of:
+- Index: 0, Number: 9
+- Index: 1, Number: 8
+- Index: 2, Number: 7
+
+
+### If, elseif & else (b:if)
+
+**When to use if, elseif, or else**
+You can se the ```b:if```, ```b:elseif``` and ```b:else``` tags to display certain content in particular cases, and other content in other cases. For example, you might only want to show certain text on the homepage, but different text when looking at individual posts.
+
+**Format**
+```html
+<b:if cond='condition'>
+  [Content To Display If Condition Is True]
+<b:elseif cond='another condition'/>
+  [Content To Display If No Previous If Or ElseIf Conditions Have Been True, And This ElseIf Condition Is True]
+<b:else/>
+  [Content To Display If No If Or ElseIf Conditions Are Met]
+</b:if>
+```
+
+_The_ ```b:elseif``` _and_ ```b:else``` _tags are optional. Without them, the result will be either the content listed in the b:if section or nothing. The closing_ ```</b:if>``` _is required in each case, however._
+
+For "condition" you can put in anything that evaluates to either true or false. Some data tags are simply true/false values on their own, e.g. ```allowComments``` on a post. With other pieces of data, you can compare them with specific values to get a true or false. Here are some examples:
+
+- ```<b:if cond='data:post.showBacklinks'>```
+True if the current post is set to show backlinks.
+  
+- ```<b:if cond='data:blog.pageType == "item"'>```
+True if the current page is an item page (post page).
+
+- ```<b:if cond='data.blog.pageType == "item" and data:post.showBacklinks'>```
+True if the current page if an item page (post page) and the current post is set to show backlinks.
+
+- ```<b:if cond='data:displayname != "Fred"'>```
+True if this is not Fred's display name.
+
+- ```<b:if cond='data:displayname == "Fred" or data:blog.pageType == "static_page"'>```
+True if Fred is the display name, or the current page is a static page (not a post page).
+
+- ```<b:if cond='data:post.numComments > 1'>```
+True if the current post has more than one comment.
+
+- ```<b:if cond='data:blog.pageType in {"static_page", "item"}'> OR <b:if cond='{"static_page", "item"} contains data:blog.pageType'>```
+True if the current page is a specific post, or a page.
