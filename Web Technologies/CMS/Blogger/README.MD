@@ -158,3 +158,36 @@ True if the current post has more than one comment.
 
 - ```<b:if cond='data:blog.pageType in {"static_page", "item"}'> OR <b:if cond='{"static_page", "item"} contains data:blog.pageType'>```
 True if the current page is a specific post, or a page.
+
+
+### Switches (b:switch)
+
+**When to use a switch**
+You can use ```b:switch``` tag much like you would use a ```b:if``` tag that has several ```b:elseif``` tags. The advantage of a switch branch is that you don't need to repeat the variable name. You can easily read them to see what defines each case, and what the default case is.
+
+**Format**
+```html
+<b:switch var='[Data expression]'>
+<b:case value="[Value 1]" />
+  [Output if evaluation of var is equal to Value 1]
+<b:case value="[Value 2]" />
+  [Output if evaluation of var is equal to Value 2]
+[... any other values]
+<b:default />
+  [Output if evaluation of var is not equal to any other stated b:case]
+</b:switch>
+```
+
+**Example**
+This example shows how to output a differet header, depending on what type of page is being rendered.
+
+```html
+<b:switch var='data.blog.pageType'>
+<b:case value="static_page" />
+  <h1>Page</h1>
+<b:case value="item" />
+  <h1>Post</h1>
+<b:default />
+  <h2>Blog Posts</h2>
+</b:switch>
+```
