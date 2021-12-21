@@ -54,8 +54,12 @@ Note that the include only runs while the index is less than 10, so only a max o
 </b:includable>
 ```
 
+
+
 ### Date Output (data:)
+
 **Examples**
+
 - **<data.title/>** would print out the title of widget
 - **<data.photo.url/>** Size: <data.photo.width /> x <data.photo.height /> would print attributes of a photo component. A photo may have components such as url, height, and width. 
 
@@ -69,9 +73,13 @@ photo ['url: example.com', 'width: 500']
 
 data:photo.url
 
+
 ### Loops (b:loop)
+
 **When to use b:loop**
+
 The ```b:loop``` tag lets you repeat a section of content multiple times. This is most commonly used for printing out each post in a list of posts for a given page, or each comment, or each label, etc.
+
 
 **Format**
 The general format for using loops is this:
@@ -92,6 +100,7 @@ _The 'identifier' (i) part can be any name you choose, and will be used to stand
 
 Notice how "i" takes on the value of each post in turn, so you can get the title from each one.
 
+
 **Number Range**
 A loop tag allows you to interate accross an inclusive number range, such as '1 to 3', '-3 to -9', where the value of the variable takes the number's value. The following example would create an unordered list of 1, 2 and 3.
 
@@ -100,6 +109,7 @@ A loop tag allows you to interate accross an inclusive number range, such as '1 
   <li><data:i /></li>
 </b:loop>
 ```
+
 
 **Index Attribute**
 Loop tags also have an optional index attribute, which gives the zero-based index of the current iteration through the loop.
@@ -118,12 +128,16 @@ This example would create an unordered list of:
 - Index: 2, Number: 7
 
 
+
 ### If, elseif & else (b:if)
 
 **When to use if, elseif, or else**
+
 You can se the ```b:if```, ```b:elseif``` and ```b:else``` tags to display certain content in particular cases, and other content in other cases. For example, you might only want to show certain text on the homepage, but different text when looking at individual posts.
 
+
 **Format**
+
 ```html
 <b:if cond='condition'>
   [Content To Display If Condition Is True]
@@ -160,12 +174,16 @@ True if the current post has more than one comment.
 True if the current page is a specific post, or a page.
 
 
+
 ### Switches (b:switch)
 
 **When to use a switch**
+
 You can use ```b:switch``` tag much like you would use a ```b:if``` tag that has several ```b:elseif``` tags. The advantage of a switch branch is that you don't need to repeat the variable name. You can easily read them to see what defines each case, and what the default case is.
 
+
 **Format**
+
 ```html
 <b:switch var='[Data expression]'>
 <b:case value="[Value 1]" />
@@ -178,7 +196,9 @@ You can use ```b:switch``` tag much like you would use a ```b:if``` tag that has
 </b:switch>
 ```
 
+
 **Example**
+
 This example shows how to output a differet header, depending on what type of page is being rendered.
 
 ```html
@@ -191,3 +211,80 @@ This example shows how to output a differet header, depending on what type of pa
   <h2>Blog Posts</h2>
 </b:switch>
 ```
+
+
+### Attribute expressions (expr:)
+
+**When to use Expressions**
+
+You can use the expr attribute to set attribute values based on values in the data dictionary.
+
+
+**Examples**
+
+- ```<a expr:href='data:blog.homepageUrl'>Home</a>```
+A home link with the blog's homepage url.
+
+- ```<a expr:href='data:blog.homepageUrl + "feeds/posts/default"'>Posts RSS</a>```
+A link with the blog's post RSS feed url. The '+' operator concatenates the two strings.
+
+- ```<a expr:class='data:post.allowComments ? "comment" : "no-comment">Comment</a>```
+A link with the class "comment" when comments are allowed, and "no-comment" when they are not. The ternary operator (?:) takes the given boolean value and picks the first value (after the ?) if the boolean is true, or the second value (after the :) if the boolean is false.
+
+
+
+### Evaluated Expressions (b:eval)
+
+**When to use an Evaluated Expression**
+
+You can use ```b:eval``` tag to evaluate a more complicated expression than a standard data tag.
+
+
+**Format**
+
+```<b:eval expr='Expression' />```
+
+
+**Examples**
+- min-height: ```<b:eval expr="data:newWidth * data:height / data:width" />```px;
+Output a calculated relative height, based on a new width value.
+
+- ```<b:eval expr='data:post.labels[0].url" />
+Output the url of the first post label.
+
+- ```<b:eval expr='data:post.allowComments ? "Comment" : "Comments Disabled" />```
+Output "Comment" when comments are allowed, and "Comments Disabled" when they are not.
+
+_Note that this expression makes use of the ternary operator._
+
+
+
+### Variable alias (b:with)
+
+**When to use a variable alias**
+
+You can use ```b:with``` tag to temporarily store the value of a computed expression and avoid complicated inline expressions.
+
+
+**Format**
+
+```<b:with var='myComputedValue' value='[Data expression]' />```
+
+
+**Examples**
+
+For a complicated style attribute based on data variables, you can compute it before the rest of the HTML output, so that the nested HTML is easier to read.
+
+```html
+<b:with var='style'
+        value='"background-image: url(\"" + data.sourceUrl "\"); "
+               + " width: " + data:width + "px; " '>
+  <div id='header-outer'>
+    <div id='header-inner' expr:style='data:style'>
+      <h1>My Header</h1>
+    </div>
+  </div>
+</b:with>
+```
+
+_Note that the variable will only exist for the child nodes of the ```b:with``` tag._
