@@ -249,7 +249,7 @@ You can use ```b:eval``` tag to evaluate a more complicated expression than a st
 - min-height: ```<b:eval expr="data:newWidth * data:height / data:width" />```px;
 Output a calculated relative height, based on a new width value.
 
-- ```<b:eval expr='data:post.labels[0].url" />
+- ```<b:eval expr='data:post.labels[0].url" />```
 Output the url of the first post label.
 
 - ```<b:eval expr='data:post.allowComments ? "Comment" : "Comments Disabled" />```
