@@ -25,3 +25,66 @@ This is a simple widget with just two pieces of data. They can be referenced sim
 
 - **title:** The blog's title
 - **description:** The blog's description.
+
+
+### Blog Posts
+
+This is the central part of any blog. Here's all the data available in this widget.
+
+- **feedLinks:** A list of feeds for this page. On the main page, this will contain the main blog feeds; on item pages, this will also contain comments feeds. Each item in this list contains the following:
+  - **url:** The feed URL
+  - **name:** The feed name (i.e, 'Posts' or 'Comments').
+  - **feedType:** The type of feed (Atom or RSS).
+  - **mimeType:** The mime type of the feed.
+- **olderPageUrl:** If there are older posts than the ones on the current page, this is a URL to those posts. Context-sensitive for page type. (Not all pages will have this link.)
+- **olderPageTitle:** Title of the link to the older page of posts.
+- **newerPageUrl:** The newwer equivalent of olderPageUrl.
+- **newerPageTitle:** The newer equivalent of olderPageTitle.
+- **commentLabel:** The phrase to use to show the number of comments, e.g. "comments."
+- **authorLabel:** The phrase to use to indicate who wrote the post, e.g. "posted by."
+- **timestampLabel:** The phrase to use to indicate when the post was written, e.g. "posted at."
+- **postLabelsLabel:** Phrase to introduce the list of post labels, e.g. "labels for this post."
+- **backlinksLabel:** Phrase to describe backlinks to this post, e.g. "links to this post."
+- **posts:** A list of all posts for this page. Each post contains the following:
+  - **dateHeader:** The date of this post, only present if this is the first post in the list that was posted on this day.
+  - **id:** The numeric post ID.
+  - **title:** The post's title.
+  - **body:** The content of the post.
+  - **author:** The display name of the post author.
+  - **url:** The permalink of this post.
+  - **timestamp:** The post's timestamp. Unlike dateHeader, this exists for every post.
+  - **labels:** The lsit of the post's labels. Each label contains the following:
+    - **name:** The label text.
+    - **url:** The URL of the page thatlists all post in this blog with this label.
+    - **isLast:** True or false. Whether this label is the last one in the list (useful for placing commas).
+  - **allowComments:** 'True' if this post allows comments.
+  - **numComments:** This number of comments on this post.
+  - **showBacklinks:** Whether to show backlinks for this post.
+  - **numBacklinks:** Number of backlinks for this post.
+  - **addCommentUrl:** The URL of the 'add a comment' form for this post.
+  - **emailPostUrl:** The URL of the 'email this post' form for this post.
+  - **editUrl:** The URL of the 'email this post' form for this post.
+  - **feedLinks:** A list of feeds specific to this post. (This is different from the overall blog feedLinks, as it may contain a feed for the post's comments, for instance.) Each contains the following: 
+    - **url:** The feed URL.
+    - **name:** The feed name (e.g. 'Posts' or 'Comments').
+    - **feedType:** The type of feed (Atom or RSS).
+    - **mimeType:** The mime type of the feed. 
+  - **comments:** A list of all comments for this post (on item pages only). Each contains the following:
+    - **id:** The numeric ID of the comment.
+    - **body:** The body of the comment.
+    - **timestamp:** The time the comment was created.
+    - **author:** The display name of the comment's author, or 'Anonymous'.
+    - **authorUrl:** URL of the comment author's profile, if the comment is not anonymous.
+    - **deleteUrl:** The URL for deleting this comment.
+    - **isDeleted:** Whether this comment has been deleted. (The text of deleted comments is replaced with a placeholder.)
+
+
+### Blog Archives
+
+The different styles provided here are for the different default options on the Page Elements tab. If you're designing a new version, it's easiest to use 'FLAT' as the style, and then manipulate the rest of the data as desired. 
+- **title:** The title of the widget.
+- **style:** One of 'MENU', 'FLAT', or 'HIERARCHY'.
+- **data:** A list of each archive unit, each of which contains:
+  - **name:** The name of this archive unit, each of which contains:
+  - **url:** The link to the page containing posts from this interval.
+  - **post-count:** How many posts there are in this interval.
