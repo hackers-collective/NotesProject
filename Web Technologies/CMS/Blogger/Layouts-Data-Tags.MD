@@ -5,6 +5,7 @@ There are many different tags you can use to include specific pieces of data in 
 This is a central list of all available data. Since different types of widget use different data, the list is divided into sections based on page elements.
 
 
+
 ### Globally Available Data
 
 This information applies to the entire page, so you can use it anywhere, unlike other data which can only be used in a specific widget. These should be referenced as part of the overall "blog" data, e.g. as ```<data.blog.title/>```, etc.
@@ -19,12 +20,14 @@ This information applies to the entire page, so you can use it anywhere, unlike 
 - **feedLinks:** The autodiscovery feed links for the page header.
 
 
+
 ### Page Header
 
 This is a simple widget with just two pieces of data. They can be referenced simply as ```<data:title/>``` and ```<data:description/>```.
 
 - **title:** The blog's title
 - **description:** The blog's description.
+
 
 
 ### Blog Posts
@@ -79,6 +82,7 @@ This is the central part of any blog. Here's all the data available in this widg
     - **isDeleted:** Whether this comment has been deleted. (The text of deleted comments is replaced with a placeholder.)
 
 
+
 ### Blog Archives
 
 The different styles provided here are for the different default options on the Page Elements tab. If you're designing a new version, it's easiest to use 'FLAT' as the style, and then manipulate the rest of the data as desired. 
@@ -88,3 +92,105 @@ The different styles provided here are for the different default options on the 
   - **name:** The name of this archive unit, each of which contains:
   - **url:** The link to the page containing posts from this interval.
   - **post-count:** How many posts there are in this interval.
+
+
+
+### Profile Widget
+
+For a blog with a singe author, the profile widget contains the following information. Note that to access different parts of the ```photo``` data, you'll use notation such as ```<data:photo.url/>```.
+
+- **title:** The title of the widget.
+- **userUrl:** The author's profile URL.
+- **location:** The location from the author's profile.
+- **aboutme:** The "About Me" information from the profile.
+- **displayname:** The author's display name.
+- **photo:** The user's profile photo, mode up of the following:
+  - **url:** The photo URL.
+  - **width:** The photo's width, in pixels.
+  - **height:** The photo's height, in pixels.
+  - **alt:** The "alt" text for the photo.
+
+On team blogs, the profile widget contains less information about more authors, as follows.
+
+- **title:** The title of the widget.
+- **authors:** The list of all authors, each of which contains the following:
+  - **displayName:** The author's display name.
+  - **userURL:** The author's profile URL.
+
+_If you want to design your template to handle both single- and multiple-author blogs, you can use the)_ ```data:team``` _variable to distinguish between the two cases. E.g._ 
+
+```html
+<b:if cond='data:team=="true"'>
+  (display multiple authors)
+</b:if>
+```
+
+
+
+### Text / HTML / JavaScript Widget
+
+The Text Widget and the HTMl/JavaScript widget work the same way and have the same two pieces of data.
+
+- **title:** The widget's title.
+- **content:** The content of the widget.
+
+
+
+### Feed Widget
+
+A feed widget's content is dynamically loaded using Google AJAX API after blog is rendered in a browser. It can be styled only using CSS.
+
+- **title:** The widget's title
+- **feedUrl:** The URL of the feed.
+
+
+
+### Picture Widget
+
+A picture widget contains a single image, and provides all the relevant data for that image.
+
+- **title:** The title of the widget.
+- **sourceUrl:** The URL of the image.
+- **width:** The image's width, in pixels.
+- **height:** The image's height, in pixels.
+- **caption:** The image caption.
+
+
+
+### Labels Widget
+
+The labels widget includes a list of all labels that are in use on the blog.
+
+- **title:** The widget title.
+- **labels:** The list of labels, each of which contains:
+  - **name:** The text of the label.
+  - **count:** How many posts have this label.
+  - **url:** A link to a page displaying posts with this label.
+
+
+
+### List Widget
+
+The simplest form of a list. Each item is just a single piece of text, without any different types of data within it.
+
+- **title:** The widget title.
+- **items:** The list of items.
+
+
+
+### Link List Widget
+
+A slighly fancier list, where each item has two parts to it: the text and the link.
+
+- **title:** The widget title.
+- **links:** The lsit of links, each of which contains:
+  - **name:** The link's text.
+  - **target:** The link's URL.
+
+
+
+### Logo Widget
+
+It doesn't get any simpler than this one. Just one piece of data here.
+
+- **fullButton:** The URL of the Blogger button you've selected.
