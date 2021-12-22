@@ -51,4 +51,4 @@ Some examples of widgets (one for a page header and one for a list) are:
 - **pageType** - (Optional) Can be "all," "archive," "main," or "item," with "al" as the default. The widget will display only on the designated pages of your blog. (All widgets display on the Page Elements tab, regardless of their pageType.)
 - **mobile** - (Optional) Can be "yes," "no," or "only" with "default" as the default. This decides if the widget will be displayed on mobile or not. Only Header, Blog, Profile, PageList, AdSense, Attribution will be displayed on mobile when the mobile attribute is "default."
 
-**Note:** _In your published blog, all_ ```<b:section>``` and ```<b:widget>``` tags will be replaced with ```<div>``` tags, which will have the specified ID. This will allow you to refer to, for example, div#header or div#myList in your CSS.
+**Note:** _In your published blog, all_ ```<b:section>``` _and_ ```<b:widget>``` _tags will be replaced with_ ```<div>``` _tags, which will have the specified ID. This will allow you to refer to, for example, div#header or div#myList in your CSS._
