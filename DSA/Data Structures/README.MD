@@ -80,7 +80,7 @@
 
 ### Trees
 
-**Binary Trees*
+**Binary Trees**
 - AA Tree
 - AVL Tree
 - Binary Search Tree
@@ -117,3 +117,142 @@
 - Fusion Tree
 - Bx-Tree
 - AList
+
+
+**Heaps**
+- Heap
+- Binary Heap
+- B-Heap
+- Weak Heap
+- Binomial Heap
+- Fibonacci Heap
+- AF-Heap
+- Leonardo Heap
+- 2-3 Heap
+- Soft Heap
+- Pairing Heap
+- Leftist Heap
+- Treap
+- Beap
+- Skew Heap
+- Ternary Heap
+- D-ary Heap
+- Brodal Queue
+
+
+**Trees**
+- Radix Tree
+- Suffix Tree
+- Suffix Array
+- Compressed Suffix Array
+- FM-Index
+- Generalised Suffix Tree
+- B-Tree
+- Judy Array
+- X-fast Tree
+- Y-fast Tree
+- Markle Tree
+- C Tree
+
+
+**Multi-Way Trees**
+- Ternary Tree
+- K-Ary Tree
+- And-Or Tree
+- (a,b) - Tree
+- Link/Cut Tree
+- SPQR - Tree
+- Spaghetti Stack
+- Disjoint-Set Data Structure
+- Fusion Tree
+- Enfilade
+- Exponential Tree
+- Fenwick Tree
+- Van Emde Boas Tree
+- Rose Tree
+
+
+**Space-Partitioning Trees
+- Segment Tree
+- Interval Tree
+- Range Tree
+- Bin
+- K-d Tree
+- Implict K-d Tree
+- Min/Max K-d Tree
+- Relaxed K-d Tree
+- Adaptive K-d Tree
+- Quadtree
+- Octree
+- Linear Octree
+- Z-order
+- UB-Tree
+- R-Tree
+- R+ Tree
+- R* Tree
+- Hilbert R-Tree
+- X-Tree
+- Metric Tree
+- Cover Tree
+- M-Tree
+- VP-Tree
+- BK-Tree
+- Bounding Interval Hierarchy
+- Bounding Volume Hierarchy
+- BSP Tree
+- Rapidly Exploring Random Tree
+
+
+**Application-Specific Trees**
+- Abstract Syntax Tree
+- Parse Tree
+- Decision Tree
+- Alternating Decision Tree
+- Minimax Tree
+- Expectiminimax Tree
+- Finger Tree
+- Expression Tree
+- Log-Structured Merge-Tree
+- Lexicographic Search Tree
+
+
+**Hash-Based Structures**
+- Bloom Filter
+- Count-Min Sketch
+- Distributed Hash Table
+- Double Hashing
+- Dynamic Perfect Hash Table
+- Hash Array Mapped Tree
+- Hash List
+- Hash Table
+- Hash Tree
+- Hash Trie
+- Koorde
+- Prefix Hash Tree
+- Rolling Hash
+- MinHash
+- Quotient Filter
+- Ctrie
+
+
+**Graphs**
+- Graph
+- Adjacency List
+- Adjacency Matrix
+- Graph-Structured Stack
+- Scene Graph
+- Decision Tree / Binary Decision Diagram
+- Zero Suppressed Decision Diagram
+- And-Inverter Graph
+- Directed Graph
+- Directed Acyclic Graph
+- Propositional Directed Acyclic Graph
+- Multigraph
+- Hypergraph
+
+**Other**
+- Lightmap
+- Winged Edge
+- Quad-Edge
+- Routing Table
+- Symbol Table
