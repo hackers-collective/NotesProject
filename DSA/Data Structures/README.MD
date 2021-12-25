@@ -80,7 +80,7 @@
 
 ### Trees
 
-**Binary Trees*
+**Binary Trees**
 - AA Tree
 - AVL Tree
 - Binary Search Tree
@@ -117,3 +117,24 @@
 - Fusion Tree
 - Bx-Tree
 - AList
+
+
+**Heaps**
+- Heap
+- Binary Heap
+- B-Heap
+- Weak Heap
+- Binomial Heap
+- Fibonacci Heap
+- AF-Heap
+- Leonardo Heap
+- 2-3 Heap
+- Soft Heap
+- Pairing Heap
+- Leftist Heap
+- Treap
+- Beap
+- Skew Heap
+- Ternary Heap
+- D-ary Heap
+- Brodal Queue
