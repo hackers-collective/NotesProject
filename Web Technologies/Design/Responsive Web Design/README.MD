@@ -10,7 +10,11 @@ Google has very easy definition for this "Responsive web design is a setup where
 
 # Psychology of Designing Responsive Web by Understanding the Business Requirement
 
-<---DRAFT --->
+Are you? Existing or New Venture OR the person who develops or gonna develop new Website for some purpose! Let's see things in two different scenarios.
+
+## Scenario #1 - New Venture / Starting Up
+## Scenario #2 - Existing Venture / Improving / Scaling Up
+
 
 ## 1. Requirement Analysis
 
@@ -53,4 +57,14 @@ Type: News/Blog/Shopping
 
 Design: Small to Larger
 
-<--->
+--->
+
+
+## Important Tags
+- \<main> element
+- \<section> element
+- \<nav> element
+- \<article> element
+- \<aside> element
+- \<header> element
+- \<footer> element
