@@ -6,6 +6,8 @@ Google has very easy definition for this "Responsive web design is a setup where
 - gs.statcounter.com
 - caniuse.com
 
+## Resources
+- html.spec.whatwg.org
 
 
 # Psychology of Designing Responsive Web by Understanding the Business Requirement
