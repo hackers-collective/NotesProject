@@ -14,6 +14,8 @@ function test() {
 }
 ```
 
+### List of Technologies / Approaches - https://docs.google.com/spreadsheets/d/1-HntSxB-jN4PRY2vGbxBIAPl3ltAM6SKMlcuJsruyoc/edit?usp=sharing
+
 ## :white_check_mark: Big Data
    * ### [Hadoop](Hadoop.MD)
 ## :white_check_mark: Cloud
