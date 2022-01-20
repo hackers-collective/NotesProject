@@ -8,15 +8,21 @@
 
 Conventions Used
 
+## For Code
 ```javascript
 function test() {
  console.log("look ma’, no spaces");
 }
 ```
 
+## For Status
+:red_circle: Not Started
+:white_check_mark: Completed
+:warning: In Progress
+
 ### List of Technologies / Approaches - https://docs.google.com/spreadsheets/d/1-HntSxB-jN4PRY2vGbxBIAPl3ltAM6SKMlcuJsruyoc/edit?usp=sharing
 
-## :white_check_mark: Big Data
+## :red_circle: Big Data
    * ### [Hadoop](Hadoop.MD)
 ## :white_check_mark: Cloud
    * ### AWS
@@ -27,7 +33,7 @@ function test() {
    * ### Artificial Intelligence
      * #### Machine Learning
      * #### Deep Learning
-## :white_check_mark: DevOps
+## :warning: DevOps
    * ### Continuous Configuration Automation (CCA)
      * #### [Ansible](DevOps/Continuous%20Configuration%20Automation/Ansible/README.MD)
      * #### [CFEngine](DevOps/Continuous%20Configuration%20Automation/CFEngine/README.MD)
