@@ -8,7 +8,7 @@ All Thanks to Vimal Daga Sir for helping thousands of students in their technica
 
 We've used real life examples to explain the things in better way by connecting emotions with things, by integrating technology with humanity to solve almost all the problems exist around us. As [Jim Kwik](https://twitter.com/jimkwik?lang=en) says
 
-**LEARNING + EMOTION = LONG TERM MEMORY**
+**INFORMATION + EMOTION = LONG TERM MEMORY**
 
 Code Example
 
