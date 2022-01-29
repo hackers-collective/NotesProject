@@ -132,6 +132,16 @@ function test() {
 ## :white_check_mark: Troubleshooting
    * ### Jupyter Notebook
 
+# Recipies
+
+### Web Technologies / Development / JavaScript
+
+- This is an example
+- This is an example
+
+### Operating Systems / Linux / Red Hat
+
+- Configuring Cockpit Web Interface 
 
 
 
