@@ -102,6 +102,9 @@ function test() {
 ## :white_check_mark: Internet of Things (IoT)
 ## :white_check_mark: MLOps
 ## :white_check_mark: OS
+   * ### Linux
+     * #### Red Hat
+       * ##### Cockpit
 ## :white_check_mark: Programming Languages
    * ### C
    * ### C++
