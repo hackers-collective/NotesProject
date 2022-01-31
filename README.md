@@ -102,6 +102,9 @@ function test() {
 ## :white_check_mark: Internet of Things (IoT)
 ## :white_check_mark: MLOps
 ## :white_check_mark: OS
+   * ### Linux
+     * #### Red Hat
+       * ##### Cockpit
 ## :white_check_mark: Programming Languages
    * ### C
    * ### C++
@@ -132,6 +135,16 @@ function test() {
 ## :white_check_mark: Troubleshooting
    * ### Jupyter Notebook
 
+# Recipies
+
+### Web Technologies / Development / JavaScript
+
+- This is an example
+- This is an example
+
+### Operating Systems / Linux / Red Hat
+
+- Configuring Cockpit Web Interface 
 
 
 
