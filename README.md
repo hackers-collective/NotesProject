@@ -146,6 +146,10 @@ function test() {
 
 - Configuring Cockpit Web Interface 
 
+### Programming Languages / Python
+
+- Recipie xYZ
+
 
 
 
