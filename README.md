@@ -149,7 +149,3 @@ function test() {
 ### Programming Languages / Python
 
 - Recipie xYZ
-
-
-
-
