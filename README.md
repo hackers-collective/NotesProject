@@ -28,6 +28,8 @@ function test() {
    * ### AWS
      * #### EC2
      * 
+   * ### Azure
+   * ### GCP
 ## :white_check_mark: Cybersecurity
 ## :white_check_mark: Data Science
    * ### Artificial Intelligence
