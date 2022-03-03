@@ -63,6 +63,8 @@ Design: Small to Larger
 
 
 ## Important Tags
+
+```html
 - \<main> element
 - \<section> element
 - \<nav> element
@@ -70,3 +72,12 @@ Design: Small to Larger
 - \<aside> element
 - \<header> element
 - \<footer> element
+```
+
+
+## Apple Meta tag
+
+```html
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+```
+
