@@ -8,7 +8,7 @@
 
 :link: https://www.getrevue.co/profile/scriptkkiddie
 
- > ## _Education should be Right, & Right of Everyone ~ [Vimal Daga](https://www.linkedin.com/in/vimaldaga)_
+ > ## _Education should be Right, & Right of Everyone ~ [Vimal Daga](https://bit.ly/VimalDagaLinkedIn)_
 
 Conventions Used
 
