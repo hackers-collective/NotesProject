@@ -7,21 +7,21 @@
 
  > ## _Education should be Right, & Right of Everyone ~ [Vimal Daga](https://bit.ly/VimalDagaLinkedIn)_
 
-Conventions Used
+## Conventions Used
 
-## For Code
+### For Code
 ```javascript
 function test() {
  console.log("look ma’, no spaces");
 }
 ```
 
-## For Status
+### For Status
 :red_circle: Not Started
 :white_check_mark: Completed
 :warning: In Progress
 
-https://bit.ly/README_notes
+### Official ReadMe - https://bit.ly/README_notes
 ### List of Technologies / Approaches - https://docs.google.com/spreadsheets/d/1-HntSxB-jN4PRY2vGbxBIAPl3ltAM6SKMlcuJsruyoc/edit?usp=sharing
 
 ## :red_circle: Big Data
@@ -29,7 +29,7 @@ https://bit.ly/README_notes
 ## :white_check_mark: Cloud
    * ### AWS
      * #### EC2
-     * 
+     * #### S3
    * ### Azure
    * ### GCP
 ## :white_check_mark: Cybersecurity
@@ -143,13 +143,8 @@ https://bit.ly/README_notes
 
 ### Web Technologies / Development / JavaScript
 
-- This is an example
-- This is an example
-
 ### Operating Systems / Linux / Red Hat
 
 - Configuring Cockpit Web Interface 
 
 ### Programming Languages / Python
-
-- Recipie xYZ
