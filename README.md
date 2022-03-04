@@ -24,6 +24,7 @@ function test() {
 :white_check_mark: Completed
 :warning: In Progress
 
+https://bit.ly/README_notes
 ### List of Technologies / Approaches - https://docs.google.com/spreadsheets/d/1-HntSxB-jN4PRY2vGbxBIAPl3ltAM6SKMlcuJsruyoc/edit?usp=sharing
 
 ## :red_circle: Big Data
