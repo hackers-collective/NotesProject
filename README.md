@@ -121,7 +121,7 @@ function test() {
      * #### Software Architecture, & Engineering
        * ##### Clean Code
        * ##### Complexity & Performance
-       * ##### Exntesions in other languages
+       * ##### Extensions in other languages
        * ##### Parallel Programming
        * ##### Python Object Oriented
        * ##### Python Networking
