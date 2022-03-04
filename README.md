@@ -3,43 +3,41 @@
   <br>
 </p>
 
-###### by [Rohit Jain](https://www.linkedin.com/in/01rohitjain), [Tinkal Shakya](https://www.linkedin.com/in/tinkalshakya), [Sachin Kumar](https://www.linkedin.com/in/sachin-kumar10/), [Prashant Kumar](https://www.linkedin.com/in/webdevprashant), Shobhit Sharma & others from भारत :india:
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/scriptkkiddie)  [![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/ScriptKKiddie)  [![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/scriptkkiddie)  [![Snapchat](https://img.shields.io/badge/Snapchat-%23FFFC00.svg?style=for-the-badge&logo=Snapchat&logoColor=white)](https://www.snapchat.com/add/scriptkkiddie)
 
-:link: https://www.getrevue.co/profile/scriptkkiddie
 
- > ## _Education should be Right, & Right of Everyone ~ [Vimal Daga](https://www.linkedin.com/in/vimaldaga)_
+ > ## _Education should be Right, & Right of Everyone ~ [Vimal Daga](https://bit.ly/VimalDagaLinkedIn)_
 
-Conventions Used
+## Conventions Used
 
-## For Code
+### For Code
 ```javascript
 function test() {
  console.log("look ma’, no spaces");
 }
 ```
 
-## For Status
+### For Status
 :red_circle: Not Started
 :white_check_mark: Completed
 :warning: In Progress
 
+### Official ReadMe - https://bit.ly/README_notes
 ### List of Technologies / Approaches - https://docs.google.com/spreadsheets/d/1-HntSxB-jN4PRY2vGbxBIAPl3ltAM6SKMlcuJsruyoc/edit?usp=sharing
 
 ## :red_circle: Big Data
    * ### [Hadoop](Hadoop.MD)
-## :white_check_mark: Cloud
+## :red_circle: Cloud
    * ### AWS
      * #### EC2
-     * 
+     * #### S3
    * ### Azure
    * ### GCP
-## :white_check_mark: Cybersecurity
-## :white_check_mark: Data Science
+## :red_circle: Cybersecurity
+## :warning: Data Science
    * ### Artificial Intelligence
      * #### Machine Learning
      * #### Deep Learning
-## :warning: DevOps
+## :red_circle: DevOps
    * ### Continuous Configuration Automation (CCA)
      * #### [Ansible](DevOps/Continuous%20Configuration%20Automation/Ansible/README.MD)
      * #### [CFEngine](DevOps/Continuous%20Configuration%20Automation/CFEngine/README.MD)
@@ -91,8 +89,8 @@ function test() {
      * #### Virtuozzo
      * #### vkernel
      * #### WPARs
-## :white_check_mark: DevSecOps
-## :white_check_mark: DSA
+## :red_circle: DevSecOps
+## :red_circle: DSA
    * ### Algorithms
      * #### Test 
    * ### Big O Notation
@@ -105,13 +103,13 @@ function test() {
      * #### Trees
      * #### Hash-based Structures
      * #### Graphs 
-## :white_check_mark: Internet of Things (IoT)
-## :white_check_mark: MLOps
-## :white_check_mark: OS
+## :red_circle: Internet of Things (IoT)
+## :red_circle: MLOps
+## :red_circle: OS
    * ### Linux
      * #### Red Hat
        * ##### Cockpit
-## :white_check_mark: Programming Languages
+## :warning: Programming Languages
    * ### C
    * ### C++
    * ### C#
@@ -128,7 +126,7 @@ function test() {
        * ##### Secure Code
        * ##### Software Architecture
 
-## :white_check_mark: Web Technologies
+## :warning: Web Technologies
    * ### Development
      * #### [JavaScript](Web%20Technologies/Development/JavaScript/README.MD)
      * #### [TypeScript](Web%20Technologies/Development/TypeScript/README.MD)
@@ -138,20 +136,15 @@ function test() {
      * #### [Wordpress](Web%20Technologies/CMS/Wordpress/README.MD)
 
 
-## :white_check_mark: Troubleshooting
+## :red_circle: Troubleshooting
    * ### Jupyter Notebook
 
 # Recipies
 
 ### Web Technologies / Development / JavaScript
 
-- This is an example
-- This is an example
-
 ### Operating Systems / Linux / Red Hat
 
 - Configuring Cockpit Web Interface 
 
 ### Programming Languages / Python
-
-- Recipie xYZ
