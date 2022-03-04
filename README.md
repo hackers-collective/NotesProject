@@ -26,18 +26,18 @@ function test() {
 
 ## :red_circle: Big Data
    * ### [Hadoop](Hadoop.MD)
-## :white_check_mark: Cloud
+## :red_circle: Cloud
    * ### AWS
      * #### EC2
      * #### S3
    * ### Azure
    * ### GCP
-## :white_check_mark: Cybersecurity
-## :white_check_mark: Data Science
+## :red_circle: Cybersecurity
+## :warning: Data Science
    * ### Artificial Intelligence
      * #### Machine Learning
      * #### Deep Learning
-## :warning: DevOps
+## :red_circle: DevOps
    * ### Continuous Configuration Automation (CCA)
      * #### [Ansible](DevOps/Continuous%20Configuration%20Automation/Ansible/README.MD)
      * #### [CFEngine](DevOps/Continuous%20Configuration%20Automation/CFEngine/README.MD)
@@ -89,8 +89,8 @@ function test() {
      * #### Virtuozzo
      * #### vkernel
      * #### WPARs
-## :white_check_mark: DevSecOps
-## :white_check_mark: DSA
+## :red_circle: DevSecOps
+## :red_circle: DSA
    * ### Algorithms
      * #### Test 
    * ### Big O Notation
@@ -103,13 +103,13 @@ function test() {
      * #### Trees
      * #### Hash-based Structures
      * #### Graphs 
-## :white_check_mark: Internet of Things (IoT)
-## :white_check_mark: MLOps
-## :white_check_mark: OS
+## :red_circle: Internet of Things (IoT)
+## :red_circle: MLOps
+## :red_circle: OS
    * ### Linux
      * #### Red Hat
        * ##### Cockpit
-## :white_check_mark: Programming Languages
+## :warning: Programming Languages
    * ### C
    * ### C++
    * ### C#
@@ -126,7 +126,7 @@ function test() {
        * ##### Secure Code
        * ##### Software Architecture
 
-## :white_check_mark: Web Technologies
+## :warning: Web Technologies
    * ### Development
      * #### [JavaScript](Web%20Technologies/Development/JavaScript/README.MD)
      * #### [TypeScript](Web%20Technologies/Development/TypeScript/README.MD)
@@ -136,7 +136,7 @@ function test() {
      * #### [Wordpress](Web%20Technologies/CMS/Wordpress/README.MD)
 
 
-## :white_check_mark: Troubleshooting
+## :red_circle: Troubleshooting
    * ### Jupyter Notebook
 
 # Recipies
