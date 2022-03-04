@@ -1,4 +1,4 @@
-# ScriptKKiddie's Notes - The Half-Blood Prince Approach to Explore Tech & Winning the Universe
+# ScriptKKiddie's Notes
 
 ![Notes Logo](/assets/notes.png)
 
