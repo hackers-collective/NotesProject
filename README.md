@@ -3,9 +3,11 @@
   <br>
 </p>
 
+<a href="https://www.netlify.com">
+  <img src="https://www.netlify.com/img/global/badges/netlify-dark.svg" alt="Deploys by Netlify" />
+</a>
 
-
- > ## _Education should be Right, & Right of Everyone ~ [Vimal Daga](https://bit.ly/VimalDagaLinkedIn)_
+ 
 
 ## Conventions Used
 
