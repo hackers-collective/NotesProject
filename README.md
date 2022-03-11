@@ -92,8 +92,8 @@ function test() {
      * #### vkernel
      * #### WPARs
 ## :red_circle: [DevSecOps](DevSecOps/README.md)
-## :red_circle: Digital Electronics
-## :red_circle: DSA
+## :red_circle: [Digital Electronics](Digital_Electronics/README.MD)
+## :red_circle: [DSA](DSA/README.MD)
    * ### Algorithms
      * #### Test 
    * ### Big O Notation
@@ -113,7 +113,7 @@ function test() {
    * ### Linux
      * #### Red Hat
        * ##### Cockpit
-## :warning: Programming Languages
+## :warning: [Programming Languages](Programming_Languages/README.MD)
    * ### C
    * ### C++
    * ### C#
@@ -130,7 +130,7 @@ function test() {
        * ##### Secure Code
        * ##### Software Architecture
 
-## :warning: Web Technologies
+## :warning: [Web Technologies](Web_Technologies/README.MD)
    * ### Development
      * #### [JavaScript](Web_Technologies/Development/JavaScript/README.MD)
      * #### [TypeScript](Web_Technologies/Development/TypeScript/README.MD)
