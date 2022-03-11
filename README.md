@@ -91,7 +91,8 @@ function test() {
      * #### Virtuozzo
      * #### vkernel
      * #### WPARs
-## :red_circle: DevSecOps
+## :red_circle: [DevSecOps](DevSecOps/README.md)
+## :red_circle: Digital Electronics
 ## :red_circle: DSA
    * ### Algorithms
      * #### Test 
@@ -105,6 +106,7 @@ function test() {
      * #### Trees
      * #### Hash-based Structures
      * #### Graphs 
+## :red_circle: Electronics
 ## :red_circle: Internet of Things (IoT)
 ## :red_circle: MLOps
 ## :red_circle: OS
