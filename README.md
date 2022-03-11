@@ -130,12 +130,12 @@ function test() {
 
 ## :warning: Web Technologies
    * ### Development
-     * #### [JavaScript](Web%20Technologies/Development/JavaScript/README.MD)
-     * #### [TypeScript](Web%20Technologies/Development/TypeScript/README.MD)
+     * #### [JavaScript](Web_Technologies/Development/JavaScript/README.MD)
+     * #### [TypeScript](Web_Technologies/Development/TypeScript/README.MD)
      
    * ### CMS
-     * #### [Blogger](Web%20Technologies/CMS/Blogger/README.MD)
-     * #### [Wordpress](Web%20Technologies/CMS/Wordpress/README.MD)
+     * #### [Blogger](Web_Technologies/CMS/Blogger/README.MD)
+     * #### [Wordpress](Web_Technologies/CMS/Wordpress/README.MD)
 
 
 ## :red_circle: Troubleshooting
