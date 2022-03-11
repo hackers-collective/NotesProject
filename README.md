@@ -23,10 +23,12 @@ function test() {
 :white_check_mark: Completed
 :warning: In Progress
 
-## Official ReadMe - https://bit.ly/README_notes
-## List of Technologies / Approaches - https://docs.google.com/spreadsheets/d/1-HntSxB-jN4PRY2vGbxBIAPl3ltAM6SKMlcuJsruyoc/edit?usp=sharing
+## Metadata
 
-## Features of ScriptKKiddie's Notes 2022 Edition
+### Official ReadMe - https://bit.ly/README_notes
+### List of Technologies / Approaches - https://docs.google.com/spreadsheets/d/1-HntSxB-jN4PRY2vGbxBIAPl3ltAM6SKMlcuJsruyoc/edit?usp=sharing
+
+### Features of ScriptKKiddie's Notes 2022 Edition
 
 ## :red_circle: Big Data
    * ### [Hadoop](Hadoop.MD)
