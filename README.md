@@ -34,14 +34,14 @@ function test() {
    * ### [Hadoop](Big_Data/Hadoop/README.MD)
 ## :red_circle: Cloud
    * ### AWS
-     * #### EC2
-     * #### S3
+     * #### <del>EC2</del>
+     * #### <del>S3</del>
    * ### Azure
    * ### GCP
 ## :red_circle: Cybersecurity
 ## :warning: Data Science
    * ### Artificial Intelligence
-     * #### Machine Learning
+     * #### [Machine Learning](Data_Science/Artificial_Intelligence/Machine_Learning/README.MD)
      * #### Deep Learning
 ## :red_circle: DevOps
    * ### Continuous Configuration Automation (CCA)
