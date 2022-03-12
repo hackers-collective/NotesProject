@@ -13,3 +13,22 @@ Content Reference: https://support.google.com/blogger/answer/46888
 ## [Customize CSS Tags for Layouts](Customize-CSS-Tags.MD)
 Content Reference: https://support.google.com/blogger/answer/46871
 
+
+## Methodologies
+
+### Creating Variables
+
+```css
+.blog-name h1,.blog-name h1 a{
+color:$(blog.title.color);
+font:$(blog.title.font);
+line-height:$(blog.title.font.size);
+text-transform:uppercase
+}
+```
+
+```html
+<Variable name="blog.title.font" description="Blog Title Font" type="font" default="$(alata24)"  value="700 24px Alata, sans-serif"/>
+
+<Variable name="alata24" description="Medium-size bold font (eg: subscribe popup title)" type="font" default="700 24px Alata, sans-serif" hideEditor="true"  value="700 24px Alata, sans-serif"/>
+```
