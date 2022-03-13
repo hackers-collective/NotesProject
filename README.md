@@ -97,7 +97,7 @@ function test() {
      * #### WPARs
 ## :red_circle: [DevSecOps](DevSecOps/README.md)
 ## :red_circle: [Digital Electronics](Digital_Electronics/README.MD)
-## :red_circle: [DSA](DSA/README.MD)
+## :red_circle: [Data Structures & Algorithms](DSA/README.MD)
    * ### Algorithms
      * #### Test 
    * ### Big O Notation
