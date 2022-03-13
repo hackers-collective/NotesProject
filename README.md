@@ -99,7 +99,6 @@ function test() {
 ## :red_circle: [Digital Electronics](Digital_Electronics/README.MD)
 ## :red_circle: [Data Structures & Algorithms](DSA/README.MD)
    * ### Algorithms
-     * #### Test 
    * ### Big O Notation
    * ### Data Structures
      * #### Data Types
