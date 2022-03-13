@@ -45,14 +45,14 @@ function test() {
      * #### Deep Learning
 ## :red_circle: [DevOps](DevOps/README.MD)
    * ### [Continuous Configuration Automation (CCA)](DevOps/Continuous_Configuration_Automation/README.MD)
-     * #### [Ansible](DevOps/Continuous%20Configuration%20Automation/Ansible/README.MD)
-     * #### [CFEngine](DevOps/Continuous%20Configuration%20Automation/CFEngine/README.MD)
-     * #### [Chef](DevOps/Continuous%20Configuration%20Automation/Chef/README.MD)
-     * #### [Otter](DevOps/Continuous%20Configuration%20Automation/Otter/README.MD)
-     * #### [Pulumi](DevOps/Continuous%20Configuration%20Automation/Pulumi/README.MD)
-     * #### [Puppet](DevOps/Continuous%20Configuration%20Automation/Puppet/README.MD)
-     * #### [SaltStack](DevOps/Continuous%20Configuration%20Automation/SaltStack/README.MD)
-     * #### [Terraform](DevOps/Continuous%20Configuration%20Automation/Terraform/README.MD)
+     * #### [Ansible](DevOps/Continuous_Configuration_Automation/Ansible/README.MD)
+     * #### [CFEngine](DevOps/Continuous_Configuration_Automation/CFEngine/README.MD)
+     * #### [Chef](DevOps/Continuous_Configuration_Automation/Chef/README.MD)
+     * #### [Otter](DevOps/Continuous_Configuration_Automation/Otter/README.MD)
+     * #### [Pulumi](DevOps/Continuous_Configuration_Automation/Pulumi/README.MD)
+     * #### [Puppet](DevOps/Continuous_Configuration_Automation/Puppet/README.MD)
+     * #### [SaltStack](DevOps/Continuous_Configuration_Automation/SaltStack/README.MD)
+     * #### [Terraform](DevOps/Continuous_Configuration_Automation/Terraform/README.MD)
    
    * ### CI/CD
      * #### Apache Gump
