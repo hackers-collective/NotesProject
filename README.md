@@ -43,7 +43,7 @@ function test() {
    * ### Artificial Intelligence
      * #### [Machine Learning](Data_Science/Artificial_Intelligence/Machine_Learning/README.MD)
      * #### Deep Learning
-## :red_circle: DevOps
+## :red_circle: [DevOps](DevOps/README.MD)
    * ### [Continuous Configuration Automation (CCA)](DevOps/Continuous_Configuration_Automation/README.MD)
      * #### [Ansible](DevOps/Continuous%20Configuration%20Automation/Ansible/README.MD)
      * #### [CFEngine](DevOps/Continuous%20Configuration%20Automation/CFEngine/README.MD)
