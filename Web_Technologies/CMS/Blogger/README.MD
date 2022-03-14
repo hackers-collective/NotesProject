@@ -40,3 +40,12 @@ https://blog.technical0812.com/search?updated-max=2020-12-25T00:30:00%2B05:30&ma
 https://blog.technical0812.com/search?q=apple
 
 https://blog.technical0812.com/search/label/IoT
+
+### Global Standard Variables
+
+Variable | Description
+---------|------------
+data:view.title.escaped | To Create Page Title
+
+
+
