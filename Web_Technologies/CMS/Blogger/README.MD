@@ -48,4 +48,7 @@ Variable | Description
 data:view.title.escaped | To Create Page Title
 
 
+### Page Links Format
+- Blog Page (example.com/[YYYY/MM]/post-name.html)
+- Page (example.com/p/page-name.html)
 
