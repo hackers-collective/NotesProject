@@ -94,4 +94,4 @@ data:view.title.escaped | To Create Page Title
 Errors | Solution
 -------|---------
 Unknown runtime binding: includable in widget | All includables should be under widget in section
-Error during evaluation of <include-name> | All include should be either used in the same widget OR in another widget of the same section OR use it in different section
+Error during evaluation of \<include-name\> | All include should be either used in the same widget OR in another widget of the same section OR use it in different section
