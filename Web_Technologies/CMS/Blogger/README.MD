@@ -43,9 +43,9 @@ https://blog.technical0812.com/search/label/IoT
 
 ### Global Standard Variables
 
-Variable | Description
----------|------------
-data:view.title.escaped | To Create Page Title
+Variable | Description | Usage
+---------|-------------|------
+data:view.title.escaped | To Create Page Title | ```<title>data:view.title.escaped</title>```
 
 
 ### Page Links Format
