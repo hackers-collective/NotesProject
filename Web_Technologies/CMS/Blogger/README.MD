@@ -52,3 +52,31 @@ data:view.title.escaped | To Create Page Title
 - Blog Page (example.com/[YYYY/MM]/post-name.html)
 - Page (example.com/p/page-name.html)
 
+
+### Include & Includables Example
+
+**Includable Example**
+
+```html
+// Create Section
+<b:section id='testing'>    
+
+// Create Widget | if type is 'Something' then id should be 'Something1', 'Something2', 'Something(n)'
+<b:widget id="PageList2" type='PageList' locked="yes">
+
+// Create Includable
+<b:includable id='test1'>
+<!-- Write Something Here -->
+</b:includable>
+      
+</b:widget>
+  
+</b:section>
+```
+
+**Include Example**
+
+```html
+\\ Use it either in the same widget OR in another widget of the same section OR use it in different section
+<b:include name='test1'/>
+```
