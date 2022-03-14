@@ -55,6 +55,10 @@ data:view.title.escaped | To Create Page Title
 
 ### Include & Includables Example
 
+- <b:section
+- <b:widget
+- <b:includable
+
 **Includable Example**
 
 ```html
@@ -80,3 +84,14 @@ data:view.title.escaped | To Create Page Title
 \\ Use it either in the same widget OR in another widget of the same section OR use it in different section
 <b:include name='test1'/>
 ```
+
+
+
+## Troubleshooting
+
+### Error interpreting blog theme
+
+Errors | Solution
+-------|---------
+Unknown runtime binding: includable in widget | All includables should be under widget in section
+Error during evaluation of <include-name> | All include should be either used in the same widget OR in another widget of the same section OR use it in different section
