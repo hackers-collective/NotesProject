@@ -1,16 +1,16 @@
 # Blogger by Google
 
 
-## [Widget Tags for Layouts](Widget-Tags.MD)
+## [Widget Tags for Layouts](Widget_Tags/README.MD)
 Content Reference: https://support.google.com/blogger/answer/46995
 
-## [Layouts Data Tags](Layouts-Data-Tags.MD)
+## [Layouts Data Tags](Layouts_Data_Tags/README.MD)
 Content Reference: https://support.google.com/blogger/answer/47270
 
-## [Page Elements Tags for Layouts](Page-Elements-Tags.MD)
+## [Page Elements Tags for Layouts](Page_Elements_Tags/README.MD)
 Content Reference: https://support.google.com/blogger/answer/46888
 
-## [Customize CSS Tags for Layouts](Customize-CSS-Tags.MD)
+## [Customize CSS Tags for Layouts](Customize_CSS_Tags/README.MD)
 Content Reference: https://support.google.com/blogger/answer/46871
 
 
