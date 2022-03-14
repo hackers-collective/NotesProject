@@ -25,10 +25,12 @@ function test() {
 
 ## Metadata
 
-### Official ReadMe - https://bit.ly/README_notes
+### Official ReadMe - https://bit.ly/README_notes #1
 ### List of Technologies / Approaches - https://docs.google.com/spreadsheets/d/1-HntSxB-jN4PRY2vGbxBIAPl3ltAM6SKMlcuJsruyoc/edit?usp=sharing
 
 ### Features of ScriptKKiddie's Notes 2022 Edition
+- Error Search 
+- Stable Version PDF Availability
 
 ## :red_circle: Big Data
    * ### [Hadoop](Big_Data/Hadoop/README.MD)
