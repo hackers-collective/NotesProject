@@ -65,7 +65,7 @@ data:view.title.escaped | To Create Page Title | ```<title>data:view.title.escap
 // Create Section
 <b:section id='testing'>    
 
-// Create Widget | if type is 'Something' then id should be 'Something1', 'Something2', 'Something(n)'
+// Create Widget | | 
 <b:widget id="PageList2" type='PageList' locked="yes">
 
 // Create Includable
@@ -94,4 +94,13 @@ data:view.title.escaped | To Create Page Title | ```<title>data:view.title.escap
 Errors | Solution
 -------|---------
 Unknown runtime binding: includable in widget | All includables should be under widget in section
-Error during evaluation of \<include-name\> | All include should be either used in the same widget OR in another widget of the same section OR use it in different section
+Error during evaluation of \<include-name\> | All include should be either used inside the same b:section OR in different b:section
+
+### Blogger Template Engine Errors
+
+Errors | Solution
+-------|---------
+```The new widget id "<b>header11</b>" is invalid for type: <b>PageList</b>``` | if widget type is 'Something' then id should be 'Something1', 'Something2', 'Something(n)'
+```The widget with id "<b>header11</b>" cannot contain element: "b:include". A widget can only contain b:includable elements.``` | All b:include should be either used inside the same b:section OR in different b:section
+```The widget with id "<b>header</b>" cannot contain element: "div". A widget can only contain b:includable elements.``` | A widget itself is rendered as \<div\> in production, the Validator prevent us to use it again.
+```org.xml.sax.SAXParseException; lineNumber: 834; columnNumber: 49; The value of attribute "cond" associated with an element type "b:include" must not contain the '<' character.``` | 
