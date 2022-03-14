@@ -1,0 +1,24 @@
+ 
+          <b:section class='search-box' id='search-box'>
+            <b:widget id='BlogSearch1' locked='false' title='Search This Blog' type='BlogSearch' version='1'>
+              <b:includable id='main'>
+    
+
+  
+        <form expr:action='data:blog.searchUrl'>
+         
+         
+                  <input autocomplete='off' expr:value='data:view.isSearch ? data:view.search.query.escaped : &quot;&quot;' name='q' size='10' title='search' type='text'/>
+
+              
+                  <input expr:value='data:messages.search' title='search' type='submit'/>
+             
+        </form>
+
+    <b:include name='quickedit'/>
+  </b:includable>
+            </b:widget>
+          </b:section>
+          
+          
+    
