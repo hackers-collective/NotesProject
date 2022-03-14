@@ -32,3 +32,11 @@ text-transform:uppercase
 
 <Variable name="alata24" description="Medium-size bold font (eg: subscribe popup title)" type="font" default="700 24px Alata, sans-serif" hideEditor="true"  value="700 24px Alata, sans-serif"/>
 ```
+
+### Querying
+
+https://blog.technical0812.com/search?updated-max=2020-12-25T00:30:00%2B05:30&max-results=7
+
+https://blog.technical0812.com/search?q=apple
+
+https://blog.technical0812.com/search/label/IoT
