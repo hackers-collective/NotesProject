@@ -14,6 +14,17 @@ Content Reference: https://support.google.com/blogger/answer/46888
 Content Reference: https://support.google.com/blogger/answer/46871
 
 
+## Layout Structure
+
+Layout of Blogger Made of
+- Sections/Widgets
+
+& the CSS is used to style it obviously and bydefault it is automatically converted to DIV as
+  e.g:  b:section (in Code) => div (in Render)
+
+<div class='testing section' id='testing'>
+
+
 ## Methodologies
 
 ### Creating Variables
