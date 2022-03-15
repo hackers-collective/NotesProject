@@ -1,7 +1,7 @@
 # Misc
 
 
-## VI
+## VI + VIM
 
 ### To Execute Command And Print Output to the File 
 
