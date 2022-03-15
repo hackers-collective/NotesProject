@@ -81,10 +81,17 @@ data:view.title.escaped | To Create Page Title | ```<title>data:view.title.escap
 **Include Example**
 
 ```html
-\\ Use it either in the same widget OR in another widget of the same section OR use it in different section
+// Use it either in the same widget OR in another widget of the same section OR use it in different section
 <b:include name='test1'/>
 ```
 
+### Enable/Disable Adding More Than One Elements (Widgets) in a Section (b:section)
+
+```html
+// Add showaddelement attribute which is optional, to enable or disable the adding elements in a single widgets using Layout Editor on Blogger GUI
+// Set 'true' OR 'false' accordingly in "showaddelement"
+<b:section class='header-pages' id='header-pages' showaddelement='false'>
+```
 
 
 ## Troubleshooting
