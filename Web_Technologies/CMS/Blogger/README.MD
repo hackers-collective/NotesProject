@@ -49,6 +49,7 @@ Layout of Blogger Made of
 - **Page Body**
 
 
+
 ## Methodologies
 
 ### Creating Variables
