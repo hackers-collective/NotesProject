@@ -25,6 +25,30 @@ Layout of Blogger Made of
 <div class='testing section' id='testing'>
 
 
+### Dynamic Layout Format
+
+/home
+- Header
+- Sidebar
+- Footer
+
+- **Blog List**
+
+/blog
+- Header
+- Sidebar
+- Footer
+
+- **Blog Body**
+
+/page
+- Header
+- Sidebar
+- Footer
+
+- **Page Body**
+
+
 ## Methodologies
 
 ### Creating Variables
@@ -103,7 +127,6 @@ data:view.title.escaped | To Create Page Title | ```<title>data:view.title.escap
 // Set 'true' OR 'false' accordingly in "showaddelement"
 <b:section class='header-pages' id='header-pages' showaddelement='false'>
 ```
-
 
 ## Troubleshooting
 
