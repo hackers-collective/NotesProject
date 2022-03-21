@@ -22,8 +22,9 @@ Layout of Blogger Made of
 & the CSS is used to style it obviously and bydefault it is automatically converted to DIV as
   e.g:  b:section (in Code) => div (in Render)
 
+```html
 <div class='testing section' id='testing'>
-
+```
 
 ### Dynamic Layout Format
 
@@ -119,6 +120,28 @@ data:view.title.escaped | To Create Page Title | ```<title>data:view.title.escap
 ```html
 // Use it either in the same widget OR in another widget of the same section OR use it in different section
 <b:include name='test1'/>
+```
+
+### Widget Settings
+
+**Example Layout**
+
+```xml
+<b:widget-settings>
+  <b:widget-setting name='displayHeight'>0</b:widget-setting>
+  <b:widget-setting name='useImage'>false</b:widget-setting>
+  <b:widget-setting name='imagePlacement'>BEHIND</b:widget-setting>
+</b:widget-settings>
+```
+
+**Usage**
+
+```xml
+<b:includable id='main'>
+     <b:if cond='data:useImage'>
+       
+       <!-- if useImage is False -->
+
 ```
 
 ### Enable/Disable Adding More Than One Elements (Widgets) in a Section (b:section)
