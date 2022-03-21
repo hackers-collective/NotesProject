@@ -152,6 +152,55 @@ data:view.title.escaped | To Create Page Title | ```<title>data:view.title.escap
 <b:section class='header-pages' id='header-pages' showaddelement='false'>
 ```
 
+## Recipes
+
+### Creating Next / Prev Buttons for Blog Posts
+
+**Example XML**
+
+```xml
+<!-- navigation -->
+                  <!-- <b:include name='nextprev' /> --> // Include 
+
+
+<b:includable id='nextprev'>
+  <div class='blog-pager' id='blog-pager'>
+    <b:if cond='data:newerPageUrl'>
+      <span id='blog-pager-newer-link'>
+      <a class='blog-pager-newer-link' expr:href='data:newerPageUrl' expr:id='data:widget.instanceId + &quot;_blog-pager-newer-link&quot;' expr:title='data:newerPageTitle'><data:newerPageTitle/></a>
+      </span>
+    </b:if>
+
+    <b:if cond='data:olderPageUrl'>
+      <span id='blog-pager-older-link'>
+      <a class='blog-pager-older-link' expr:href='data:olderPageUrl' expr:id='data:widget.instanceId + &quot;_blog-pager-older-link&quot;' expr:title='data:olderPageTitle'><data:olderPageTitle/></a>
+      </span>
+    </b:if>
+
+    <a class='home-link' expr:href='data:blog.homepageUrl'><data:homeMsg/></a>
+
+    <b:if cond='data:mobileLinkUrl'>
+      <div class='blog-mobile-link'>
+        <a expr:href='data:mobileLinkUrl'><data:mobileLinkMsg/></a>
+      </div>
+    </b:if>
+
+  </div>
+  <div class='clear'/>
+</b:includable>
+```
+
+**Rendered Output Example**
+
+```html
+<div class="blog-pager" id="blog-pager">
+<span id="blog-pager-older-link">
+<a class="blog-pager-older-link" href="https://scriptkkiddie.blogspot.com/2021/02/technical0812com-stay-alert.html" id="Blog1_blog-pager-older-link" title="Older Post">Older Post</a>
+</span>
+<a class="home-link" href="https://scriptkkiddie.blogspot.com/">Home</a>
+</div>
+```
+
 ## Troubleshooting
 
 ### Error interpreting blog theme
