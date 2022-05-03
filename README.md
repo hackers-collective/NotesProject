@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="/.assets/notes.png" alt="ScriptKKiddie's Notes" width="50%"></a>
+  <img src="/.assets/notes-min.webp" alt="ScriptKKiddie's Notes" width="50%"></a>
   <br>
 </p>
 
