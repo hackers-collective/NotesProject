@@ -7,7 +7,6 @@ The ```<body>``` section of a layout theme is made up of sections and widgets.
 
 You can include any HTML you like around the sections in your theme.
 
-
 ### Sections
 
 Each section in your theme has opening and closing tags that look something like this.
@@ -27,8 +26,6 @@ Each section in your theme has opening and closing tags that look something like
 
 _A section can only contain widgets. To insert extra code within a section, split the section into two or more new sections._
 
-
-
 ### Widgets
 
 A widget is represented by a single tag, which is a placeholder to indicate how the widget should be handled in the Page Elements tab.
@@ -40,7 +37,6 @@ Some examples of widgets (one for a page header and one for a list) are:
 <b:widget id="myList" type='ListView' locked="no" title="My Favorite Things"/>
 <b:widget id="BlogArchive1" locked="false" mobile="yes" title="Blog Archive" type="BlogArchive"/>
 ```
-
 
 **Widget attributes**
 

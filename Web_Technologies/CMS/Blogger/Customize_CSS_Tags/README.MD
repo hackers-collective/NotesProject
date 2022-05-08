@@ -1,6 +1,5 @@
 ## Customize CSS Tags for Layouts
 
-
 ### Set up the variables
 
 In the ```<head>``` section of your code, you'll need to have a pair of ```<b:skin> </b:skin>``` tags.
@@ -38,14 +37,14 @@ There will be a list of variables here, one for each font or color that you want
 - type - "Font" or "color."
 - default - The default value. For colors, this should be a hexadecimal color code, for example #FF0066. For fonts, it will be a list of the form font-style font-weight font-size font-family.
 
-
-### Use the variables 
+### Use the variables
 
 After the variables are set up, when you want to use the value of a variable, enter ```$variable_name``` in the ```b:skin``` css.
 
 **Variable types**
 
 > The template designer has editing support for a specific set of CSS variable types. To set the type of variable:
+>
 > - color variables will provide a color palette for selection in the template designer.
 > - font variables will provide a font selection, with size and bold or italics options, in the template designer.
 
