@@ -1,8 +1,6 @@
 # Javascript
 
-
-
-### Shortcut Keys to load the Developer Console
+## Shortcut Keys to load the Developer Console
 
 Browser | Operating System | Shortcut
 ------- | ---------------- | --------
