@@ -25,11 +25,11 @@ function test() {
 
 ## Metadata
 
-### Official ReadMe - <https://bit.ly/README_notes> #1
+Official ReadMe - <https://bit.ly/README_notes> #1
 
-### List of Technologies / Approaches - <https://docs.google.com/spreadsheets/d/1-HntSxB-jN4PRY2vGbxBIAPl3ltAM6SKMlcuJsruyoc/edit?usp=sharing>
+List of Technologies / Approaches - <https://docs.google.com/spreadsheets/d/1-HntSxB-jN4PRY2vGbxBIAPl3ltAM6SKMlcuJsruyoc/edit?usp=sharing>
 
-### Tree
+Tree
 
 ### Features of ScriptKKiddie's Notes 2022 Edition
 
@@ -44,9 +44,9 @@ function test() {
 
 - ### AWS
 
-- #### <del>EC2</del>
+- #### EC2
 
-- #### <del>S3</del>
+- #### S3
 
 - ### Azure
 
@@ -258,10 +258,10 @@ function test() {
 
 # Recipies
 
-### Web Technologies \/ Development \/ JavaScript
+## Web Technologies \/ Development \/ JavaScript
 
-### Operating Systems / Linux / Red Hat
+## Operating Systems / Linux / Red Hat
 
 - Configuring Cockpit Web Interface
 
-### Programming Languages / Python
+## Programming Languages / Python
