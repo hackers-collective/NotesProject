@@ -1,7 +1,4 @@
-<p align="center">
-  <img src="/.assets/notes-min.webp" alt="ScriptKKiddie's Notes" width="50%"></a>
-  <br>
-</p>
+<p align="center"><img src="/.assets/notes-min.webp" alt="ScriptKkiddie's Notes" width="50%"></a></p><br>
 
 <!--
 <a href="https://www.netlify.com">
@@ -33,7 +30,7 @@ List of Technologies / Approaches - <https://docs.google.com/spreadsheets/d/1-Hn
 
 Tree
 
-### Features of ScriptKKiddie's Notes 2022 Edition
+### Features of ScriptKkiddie's Notes 2022 Edition
 
 - [x] Error Search
 - [ ] Stable Version PDF Availability
