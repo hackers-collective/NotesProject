@@ -6,6 +6,8 @@
 </a>
 -->
 
+[![CodeQL](https://github.com/ScriptKKiddie/Notes/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/ScriptKKiddie/Notes/actions/workflows/codeql-analysis.yml)
+
 ## Conventions Used
 
 ### For Code
