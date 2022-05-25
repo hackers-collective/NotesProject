@@ -8,6 +8,10 @@
 
 [![CodeQL](https://github.com/ScriptKKiddie/Notes/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/ScriptKKiddie/Notes/actions/workflows/codeql-analysis.yml)
 
+## Get Started
+
+Open Source Guide: https://opensource.guide/
+
 ## Conventions Used
 
 ### For Code
