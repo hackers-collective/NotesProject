@@ -4,7 +4,7 @@
 
 ### Getting Started
 
-### Essentials 
+### Essentials
 
 #### Variables
 
