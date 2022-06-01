@@ -3,6 +3,7 @@
 bash command hierarchy
 
 Command type
+
 - Alias
 - Function
 - Shell built-in
@@ -12,8 +13,6 @@ Command type
 e.g type ls
 
 Command PATH
-
-
 
 Setting Environment
 
