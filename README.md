@@ -8,6 +8,7 @@
 
 [![CodeQL](https://github.com/ScriptKKiddie/Notes/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/ScriptKKiddie/Notes/actions/workflows/codeql-analysis.yml)
 [![pages-build-deployment](https://github.com/ScriptKKiddie/Notes/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/ScriptKKiddie/Notes/actions/workflows/pages/pages-build-deployment)
+[![Greetings](https://github.com/ScriptKKiddie/Notes/actions/workflows/greetings.yml/badge.svg)](https://github.com/ScriptKKiddie/Notes/actions/workflows/greetings.yml)
 
 ## Get Started
 
