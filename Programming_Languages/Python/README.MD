@@ -9,12 +9,3 @@ Python is a widely used industry recognized programming language used to build a
 ## Features
 
 - Interoperability
-
-## Object-Oriented
-
-concepts under the general object-oriented umbrella:
-
-- object-oriented analysis,
-- object-oriented design,
-- object-oriented analysis and design,
-- and object-oriented programming
