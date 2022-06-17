@@ -2,5 +2,5 @@
 
 ## Websites
 
-https://semver.org/
-https://opensource.guide
+<https://semver.org/>
+<https://opensource.guide>
