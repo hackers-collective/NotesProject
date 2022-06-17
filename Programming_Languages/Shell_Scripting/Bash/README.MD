@@ -17,22 +17,23 @@ Command PATH
 Setting Environment
 
 ```shell
-$ export PATH=$PATH:.
-$ test -d $HOME/bin || mkdir $HOME/bin
+export PATH=$PATH:.
+test -d $HOME/bin || mkdir $HOME/bin
 
-$ bash $HOME/bin/hello1.sh
-$ chmod +x $HOME/bin/hello1.sh
+bash $HOME/bin/hello1.sh
+chmod +x $HOME/bin/hello1.sh
 ```
 
 Checking status code
 
 ```shell
-$ command1 || command2
-$ command1 && command2
+command1 || command2
+command1 && command2
 ```
-to read 
+
+to read
 
 ```shell
-$ hello1.sh
-$ echo $?
+hello1.sh
+echo $?
 ```
