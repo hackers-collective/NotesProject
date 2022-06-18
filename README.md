@@ -10,6 +10,10 @@
 [![pages-build-deployment](https://github.com/ScriptKKiddie/Notes/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/ScriptKKiddie/Notes/actions/workflows/pages/pages-build-deployment)
 [![Greetings](https://github.com/ScriptKKiddie/Notes/actions/workflows/greetings.yml/badge.svg)](https://github.com/ScriptKKiddie/Notes/actions/workflows/greetings.yml)
 
+## About NotesProject
+
+NotesProject, is a largest community-powered open-source knowledge base dump for researchers and engineers.
+
 ## Get Started
 
 Open Source Guide: https://opensource.guide/
