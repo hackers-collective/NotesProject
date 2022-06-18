@@ -7,7 +7,6 @@
 -->
 
 [![CodeQL](https://github.com/ScriptKKiddie/Notes/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/ScriptKKiddie/Notes/actions/workflows/codeql-analysis.yml)
-[![pages-build-deployment](https://github.com/ScriptKKiddie/Notes/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/ScriptKKiddie/Notes/actions/workflows/pages/pages-build-deployment)
 [![Greetings](https://github.com/ScriptKKiddie/Notes/actions/workflows/greetings.yml/badge.svg)](https://github.com/ScriptKKiddie/Notes/actions/workflows/greetings.yml)
 [![Netlify Status](https://api.netlify.com/api/v1/badges/35b565b0-f5b6-43b4-8e36-041d3e23829f/deploy-status)](https://app.netlify.com/sites/fervent-einstein-ac47bf/deploys)
 
