@@ -1,4 +1,4 @@
-<p align="center"><img src="/.assets/notes-min.webp" alt="ScriptKkiddie's Notes" width="50%"></a></p><br>
+<p align="center"><img src="/.assets/notes-min.webp" alt="NotesProject" width="50%"></a></p><br>
 
 <!--
 <a href="https://www.netlify.com">
@@ -12,7 +12,7 @@
 
 ## About NotesProject
 
-NotesProject, is a largest community-powered open-source knowledge base dump for researchers and engineers.
+NotesProject is the largest community-powered open-source knowledge base dump for researchers and engineers.
 
 ## Get Started
 
