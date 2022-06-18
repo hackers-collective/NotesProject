@@ -14,6 +14,11 @@
 
 NotesProject is the largest community-powered open-source knowledge base dump for researchers and engineers.
 
+**Vision**
+
+- To help people find almost everything related to computer science and engineering.
+- Serving Humanity by helping newbies.
+
 ## Get Started
 
 Open Source Guide: https://opensource.guide/
