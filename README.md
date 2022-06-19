@@ -23,6 +23,11 @@ NotesProject is the largest community-powered open-source knowledge base dump fo
 
 Open Source Guide: https://opensource.guide/
 
+### Adding New Title in Dump
+
+Steps to Create
+- Create the folder under section with the Technology / Subject name: e.g For Ansible, go to DevOps Folder & Create a folder & README as _DevOps/Ansible/README.MD_
+
 ## Conventions Used
 
 ### For Code
