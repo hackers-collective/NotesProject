@@ -47,6 +47,11 @@ function test() {
 :white_check_mark: Completed
 :warning: In Progress
 
+### For Features
+
+- [ ] Represents the Feature is either under process or not available yet.
+- [x] Complete
+
 ## Metadata
 
 Official ReadMe - <https://bit.ly/README_notes> #1
@@ -55,9 +60,10 @@ List of Technologies / Approaches - <https://docs.google.com/spreadsheets/d/1-Hn
 
 Tree
 
-### Features of ScriptKkiddie's Notes 2022 Edition
+### Features of NotesProject 2022 Edition
 
-- [x] Error Search
+- [ ] Transformational Learning with clear and visualized explaination
+- [ ] Error Search - Figure out why it is happening and how to resolve with detailed and clear explaination
 - [ ] Stable Version PDF Availability
 
 ## :red_circle: Big Data
