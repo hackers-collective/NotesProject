@@ -16,3 +16,9 @@ studentName = "Rock";
 ```
 
 ### let, var and const
+
+Generally, the variable definition consists of three parts
+
+- variable-defining keyword (let, var, or const in JavaScript)
+- variable name
+- variable value
