@@ -8,7 +8,6 @@ JavaScript is an interpreted langauge that means computers and browsers can work
 
 [See Developers Tools](../../Tools/Browsers/Dev_Tools/README.MD)
 
-
 ## JS in Browser/IDE Console
 
 Console is used by devs to log what's going on and do any debugging (is finding the problem when an app isn't displaying the desired behaviour).
@@ -18,6 +17,14 @@ Some of the console functions examples:
 - ```console.log("Hello, World!");```
 - ```console.table();```
 - ```console.error();```
+
+## JavaScript - Best Practices
+
+### Formatting
+
+- Identations and whitespace
+- Semicolons
+- Code Comments
 
 ## Quick Facts
 
