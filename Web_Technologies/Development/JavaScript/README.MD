@@ -7,3 +7,9 @@ JS is semi object-oriented, functional, and procedural programming language, and
 JavaScript is an interpreted langauge that means computers and browsers can work with JS on the fly because of the engine that understands JS called Interpreter.
 
 [See Developers Tools](../../Tools/Browsers/Dev_Tools/README.MD)
+
+## Quick Facts
+
+- Browsers can work with JS because they have a special part, called interpreter, that can process JavaScript.
+
+- The current standard of JavaScript is ECMAScript 6 (ES6)
