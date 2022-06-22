@@ -13,3 +13,6 @@ In JavaScript, ```let```, ```var```, or ```const``` can be used to declare a var
 ```javascript
 let studentName = "John";
 studentName = "Rock";
+```
+
+### let, var and const
