@@ -1,10 +1,10 @@
 # Software Engineering
 
-Roger S. Pressmen's Defines Software Engineering as —
+Roger S. Pressmen Defines Software Engineering as —
 
 "Software in all forms and across all its application domains should be engineered."
 
-& that leads us to the topic "Software Engineering"
+There are some following simple realities that leads us to the topic "Software Engineering"
 
 To Build Software that is ready to meet the challenges of the 21st century, you must recognize a few simple realities
 
