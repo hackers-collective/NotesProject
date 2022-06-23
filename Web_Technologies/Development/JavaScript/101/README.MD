@@ -33,3 +33,5 @@ Note: The block of code will always start with { and end with }
 At last, **const** is used for variables that only get a value assigned once.
 
 For example: value of PI, which will not change.
+
+## Primitive data types
