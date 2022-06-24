@@ -210,3 +210,7 @@ Both of two Symbols are same: false
 ```
 
 What actually happening here is JS concludes that the Strings (`str1` and `str2` in this context) are the same and have the same value, and the same type. However, each Symbol (`sym1` and `sym2`) is unique even they contain the same string, they are not the same, and output `false` when compared; because of the `Symbol` function.
+
+### Undefined
+
+JavaScript has a special data type called "undefined" for a variable that has not been assigned a value.
