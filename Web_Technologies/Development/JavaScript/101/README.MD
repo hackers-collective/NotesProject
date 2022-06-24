@@ -85,3 +85,17 @@ and will work in this way also
 ```let string2 = 'Hello, What\'s your name? Is it "Mike"?';```
 
 It all happening normally because the backslash before the quote character gives the quote character a different meaning that it should be a literal character instead of an indicator to end string.
+
+Backslash has other more purposes
+
+- It can be used to create a line break with ```\n```
+
+```javascript
+let string3 = "New \nline.";
+```
+
+- To include a backslash character itself in the text with ```\\```
+
+```javascript
+let string4 = "I'm containing a backslash: \\!";
+```

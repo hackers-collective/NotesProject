@@ -6,7 +6,7 @@ JS is semi object-oriented, functional, and procedural programming language, and
 
 JavaScript is an interpreted langauge that means computers and browsers can work with JS on the fly because of the engine that understands JS called Interpreter.
 
-[See Developers Tools](../../Tools/Browsers/Dev_Tools/README.MD)
+[See Developers Tools](/Web_Technologies/Tools/Browsers/Dev_Tools/README.MD)
 
 ## JS in Browser/IDE Console
 
@@ -33,3 +33,5 @@ Some of the console functions examples:
 - The current standard of JavaScript is ECMAScript 6 (ES6)
 
 - JS is a loosely typed language that means it determines the type based on the value.
+
+Also Check: [Terminologies](/Programming_Languages/README.MD/#terminologies)
