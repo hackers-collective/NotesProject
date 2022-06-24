@@ -185,4 +185,25 @@ let lightIsOn = true;
 
 ### Symbol
 
-Symbol is new data type introduced in ECMA Script 6 or ES6 (current version of JavaScript) which can be used when it is important that variables are not equal, even though their value and type are the same.
+Symbol is new data type introduced in ECMA Script 6 or ES6 (current version of JavaScript) which can be used when it is important that variables are not equal, even though their value and type are the same (in this case, they would both be of the symbol type).
+
+For Example: let's compare the following string declarations to the symbol declarations, all of equal value:
+
+```javascript
+let str1 = "Hi, JavaScript!";
+let str2 = "Hi, JavaScript!";
+console.log("Both of two Strings are same: ", str1 === str2);
+
+let sym1 = Symbol("Hi, JavaScript!");
+let sym2 = Symbol("Hi, JavaScript!");
+console.log("Both of two Symbols are same: ", sym1 === sym2);
+```
+
+And the output:
+
+```console
+Both of two strings are same: true
+Both of two Symbols are same: false
+```
+
+What actually happening here is JS concludes that the Strings (`str1` and `str2` in this context) are the same and have the same value, and the same type. However, each Symbol (`sym1` and `sym2`) is unique even they contain the same string, they are not the same, and output `false` when compared; because of the `Symbol` function.
