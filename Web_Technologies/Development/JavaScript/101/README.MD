@@ -112,3 +112,20 @@ let string4 = "I'm containing a backslash: \\!";
 ### Number
 
 Basically, a datetype used to represent numbers.
+
+Unlike other programming languages, JavaScript has only data type for all the different types of numbers: number.
+
+Developers of JavaScript decided to go for a 64-bit floating-point number; i.e it can store rather large numbers and both signed and unsigned numbers, decimal numbers, and more.
+
+JavaScript can represent the following different kinds of numbers: integers, decimals, exponentials, octal, hexadecimal, and binary numbers.
+
+For Example:
+
+```javascript
+int intNr = 1; // Number
+int decNr = 1.5; // Decimal;
+int expNr = 1.4e15; // Exponential;
+int octNr = 0o10; // Octal; decimal version would be 8
+int hexNr = 0x3E8; // Hexadecimal; decimal version would be 1000
+int binNr = 0b101; // Binary; decimal version would be 5
+```
