@@ -141,3 +141,5 @@ let binNr2 = 0b100;
 ```
 
 ### BigInt
+
+In some cases, you will need an even bigger number because of the limits of the number data type are between 2<sup>53</sup>-1 and -(2<sup>53</sup>-1), BigInt comes into play in this case.
