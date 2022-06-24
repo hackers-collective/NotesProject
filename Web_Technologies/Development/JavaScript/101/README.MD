@@ -35,3 +35,5 @@ At last, **const** is used for variables that only get a value assigned once.
 For example: value of PI, which will not change.
 
 ## Primitive data types
+
+A relativey simple data structure, just contain a value and have a type.

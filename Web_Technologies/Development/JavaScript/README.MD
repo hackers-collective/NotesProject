@@ -31,3 +31,5 @@ Some of the console functions examples:
 - Browsers can work with JS because they have a special part, called interpreter, that can process JavaScript.
 
 - The current standard of JavaScript is ECMAScript 6 (ES6)
+
+- JS is a loosely typed language that means it determines the type based on the value.
