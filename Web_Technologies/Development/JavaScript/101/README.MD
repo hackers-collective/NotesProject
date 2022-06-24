@@ -75,3 +75,13 @@ console.log(message);
 Variables in these template strings are specified between ```${nameOfVariable}```.
 
 ### Escape Characters
+
+A special character (a backslash "\\") that can be used to tell JavaScript not to take the next character as you normally would.
+
+For Example: ```let string1 = "Hello, What's your name? Is it \"Vikash\"?";```
+
+and will work in this way also
+
+```let string2 = 'Hello, What\'s your name? Is it "Mike"?';```
+
+It all happening normally because the backslash before the quote character gives the quote character a different meaning that it should be a literal character instead of an indicator to end string.
