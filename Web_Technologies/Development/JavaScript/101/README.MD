@@ -38,4 +38,10 @@ For example: value of PI, which will not change.
 
 A relativey simple data structure, just contain a value and have a type.
 
-JavaScript is a loosely typed language.
+JavaScript is a loosely typed language. i.e it determines the type based on the value.
+
+For Example: if we declare a value of 10, JavaScript will automatically define it as a number type.
+
+### String
+
+
