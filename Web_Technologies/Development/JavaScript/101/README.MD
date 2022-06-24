@@ -37,3 +37,5 @@ For example: value of PI, which will not change.
 ## Primitive data types
 
 A relativey simple data structure, just contain a value and have a type.
+
+JavaScript is a loosely typed language.
