@@ -2,6 +2,13 @@
 
 Index
 
+- [Variables](#variables)
+  - [Declaring Variables](#declaring-variables)
+  - [let, var and const](#let-var-and-const)
+- [Primitive Data Types](#primitive-data-types)
+  - [String](#string)
+  - [Escape Characters](#escape-characters)
+
 ## Variables
 
 Variables are the values in your code that can represent different values each time the code runs. Without the variables, a piece of code would do the exact same thing every single time it was run which makes it static.
@@ -34,7 +41,7 @@ At last, **const** is used for variables that only get a value assigned once.
 
 For example: value of PI, which will not change.
 
-## Primitive data types
+## Primitive Data Types
 
 A relativey simple data structure, just contain a value and have a type.
 
