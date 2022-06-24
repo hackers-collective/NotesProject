@@ -8,7 +8,6 @@ Port | TCP | UDP | Description
 --- | --- | --- | ---
 21 | Yes | Assigned | FTP control command
 
-
 ### Registered Ports
 
 Port | TCP | UDP | Description
