@@ -43,3 +43,11 @@ JavaScript is a loosely typed language. i.e it determines the type based on the 
 For Example: if we declare a value of 10, JavaScript will automatically define it as a number type.
 
 ### String
+
+Generally, Strings are used to store a text value, and a sequence of characters.
+
+In JS, following are the different ways to declare a string:
+
+- Double Quotes \"\"
+- Single Quotes \'\'
+- Backticks: special template strings in whichyou can use variable directly \`\`
