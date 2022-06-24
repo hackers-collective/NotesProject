@@ -177,8 +177,10 @@ Whether an element is deleted
 let objectIsDeleted = false;
 ```
 
-Or, whether the ligh is on or off
+Or, whether the light is on or off
 
 ```javascript
 let lightIsOn = true;
 ```
+
+### Symbol
