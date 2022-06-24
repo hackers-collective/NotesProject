@@ -10,6 +10,9 @@
   - [String](#string)
   - [Escape Characters](#escape-characters)
   - [Number](#number)
+  - [BigInt](#bigint)
+  - [Boolean](#boolean)
+  - [Symbol](#symbol)
 
 ## Variables
 
