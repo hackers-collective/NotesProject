@@ -130,7 +130,7 @@ int hexNr = 0x3E8; // Hexadecimal; decimal version would be 1000
 int binNr = 0b101; // Binary; decimal version would be 5
 ```
 
-All the above numbers are of the number data type. 
+All the above numbers are of the number data type.
 
 Integers, flaoting points, binary numbers all are one data type "number" in the below example
 
@@ -150,10 +150,35 @@ A BigInt data type can be recognized by the postfix n, For Example:
 let bigNr = 90071992547409920n;
 ```
 
-It is important to understand that we can't mix BigInt with the Number data type to perform operations. 
+It is important to understand that we can't mix BigInt with the Number data type to perform operations.
 
 If we do so, For Example: ```let result = bigNr + intNr;```, it will throw the error as
 
 ```console
 Uncaught TypeError; Cannot mix BigInt and other types, use explicit conversions
+```
+
+### Boolean
+
+The Boolean data type can hold only two values: `true` and `false`; generally used to indicate on/off or yes/no or true/false situations.
+
+For Example:
+
+```javascript
+let bool1 = false;
+let bool2 = true;
+```
+
+More Examples:
+
+Whether an element is deleted
+
+```javascript
+let objectIsDeleted = false;
+```
+
+Or, whether the ligh is on or off
+
+```javascript
+let lightIsOn = true;
 ```
