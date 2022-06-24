@@ -129,3 +129,15 @@ int octNr = 0o10; // Octal; decimal version would be 8
 int hexNr = 0x3E8; // Hexadecimal; decimal version would be 1000
 int binNr = 0b101; // Binary; decimal version would be 5
 ```
+
+All the above numbers are of the number data type. 
+
+Integers, flaoting points, binary numbers all are one data type "number" in the below example
+
+```javascript
+let intNr2 = -111; // Unsigned
+let decNr2 = 45.78;
+let binNr2 = 0b100;
+```
+
+### BigInt
