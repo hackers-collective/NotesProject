@@ -1,13 +1,15 @@
 # 101 - JavaScript
 
-Index
+## Index
 
 - [Variables](#variables)
   - [Declaring Variables](#declaring-variables)
   - [let, var and const](#let-var-and-const)
+
 - [Primitive Data Types](#primitive-data-types)
   - [String](#string)
   - [Escape Characters](#escape-characters)
+  - [Number](#number)
 
 ## Variables
 
@@ -106,3 +108,7 @@ let string3 = "New \nline.";
 ```javascript
 let string4 = "I'm containing a backslash: \\!";
 ```
+
+### Number
+
+Nasically, a datetype used to represent numbers.
