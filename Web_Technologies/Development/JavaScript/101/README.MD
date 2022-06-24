@@ -111,4 +111,4 @@ let string4 = "I'm containing a backslash: \\!";
 
 ### Number
 
-Nasically, a datetype used to represent numbers.
+Basically, a datetype used to represent numbers.
