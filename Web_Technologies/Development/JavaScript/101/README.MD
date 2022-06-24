@@ -142,4 +142,18 @@ let binNr2 = 0b100;
 
 ### BigInt
 
-In some cases, you will need an even bigger number because of the limits of the number data type are between 2<sup>53</sup>-1 and -(2<sup>53</sup>-1), BigInt comes into play in this case.
+In some cases, you will need an even bigger number because of the limits of the number data type which are between 2<sup>53</sup>-1 and -(2<sup>53</sup>-1), BigInt comes into play in this case.
+
+A BigInt data type can be recognized by the postfix n, For Example:
+
+```javascript
+let bigNr = 90071992547409920n;
+```
+
+It is important to understand that we can't mix BigInt with the Number data type to perform operations. 
+
+If we do so, For Example: ```let result = bigNr + intNr;```, it will throw the error as
+
+```console
+Uncaught TypeError; Cannot mix BigInt and other types, use explicit conversions
+```
