@@ -51,3 +51,27 @@ In JS, following are the different ways to declare a string:
 - Double Quotes \"\"
 - Single Quotes \'\'
 - Backticks: special template strings in whichyou can use variable directly \`\`
+
+The difference between single quotes and double quotes is that you can use single quotes as literal characters in dobule quotes strings, and vice-versa.
+
+- If you declare a string with dingle quotes, and string itself contains a single quote character, the string will end as soon as second quote is detected, even if it's in the middle of a word.
+
+- For Example: ```let activity = 'Let's do this';```
+
+- It can be solved using Double Quotes instead of single quotes, and it will also work vice-versa — in case there is a double quote character in your string.
+
+- For Example: ```"Let's do this";```
+
+In a string, using backticks, you can point to variables and the variable's value will be substituted in the line.
+
+- Example Code Snippet
+
+```javascript
+let language = "JavaScript";
+let message = `Let's learn ${language}`;
+console.log(message);
+```
+
+Variables in these template strings are specified between ```${nameOfVariable}```.
+
+### Escape Characters
