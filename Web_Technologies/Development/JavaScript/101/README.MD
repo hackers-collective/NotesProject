@@ -184,3 +184,5 @@ let lightIsOn = true;
 ```
 
 ### Symbol
+
+Symbol is new data type introduced in ECMA Script 6 or ES6 (current version of JavaScript) which can be used when it is important that variables are not equal, even though their value and type are the same.
