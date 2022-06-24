@@ -43,5 +43,3 @@ JavaScript is a loosely typed language. i.e it determines the type based on the 
 For Example: if we declare a value of 10, JavaScript will automatically define it as a number type.
 
 ### String
-
-
