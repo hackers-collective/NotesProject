@@ -57,9 +57,9 @@ In JS, following are the different ways to declare a string:
 
 - Double Quotes \"\"
 - Single Quotes \'\'
-- Backticks: special template strings in whichyou can use variable directly \`\`
+- Backticks: special template strings in which you can use variable directly \`\`
 
-The difference between single quotes and double quotes is that you can use single quotes as literal characters in dobule quotes strings, and vice-versa.
+The difference between single quotes and double quotes is that you can use single quotes as [literal characters](/Programming_Languages/README.MD/#terminologies) in dobule quotes strings, and vice-versa.
 
 - If you declare a string with dingle quotes, and string itself contains a single quote character, the string will end as soon as second quote is detected, even if it's in the middle of a word.
 
