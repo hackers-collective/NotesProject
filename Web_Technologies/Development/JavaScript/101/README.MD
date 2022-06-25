@@ -489,7 +489,29 @@ Hello addition
 
 #### Subtraction
 
+We use "-" for subtraction operation. For Example:
+
+```javascript
+let nr1 = 20;
+let nr2 = 4;
+let str1 = "Hi";
+let nr3 = 3;
+let result1 = nr1 - nr2;
+let result2 = str1 - - nr3;
+console.log(result1, result2);
+```
+
+The first result will be `16`. And the second one will be `NaN`, not because of any error, but just simply the conclusion that a word and a number subtracted is not a number. That's how JavaScript handle minor things beautifully.
+
+The output is as follows:
+
+```console
+16 NaN
+```
+
 #### Multiplication
+
+
 
 #### Division
 
