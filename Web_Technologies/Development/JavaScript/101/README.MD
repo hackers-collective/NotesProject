@@ -434,3 +434,22 @@ The result that will be loggd to the console is:
 ```console
 NaN number
 ```
+
+Any string will return true when converted to a Boolean, even the string "false". Only an empty string, null, and undefined will lead to a Boolean value of false. For Example:
+
+```javascript
+let strToBool1 = "false";
+strToBool1 = Boolean(strToBool1);
+console.log(strToBool1, typeof strToBool1);
+
+let strToBool2 = "";
+strToBool2 = Boolean(strToBool2);
+console.log(strToBool2, typeof strToBool2);
+```
+
+This one will log the following:
+
+```console
+true boolean
+false boolean
+```
