@@ -15,3 +15,5 @@ Java | Web/Desktop/CLI/Hardware
 
 - Literal Character:
 - Primitive:
+
+### Operators

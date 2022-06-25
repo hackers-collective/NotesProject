@@ -460,7 +460,17 @@ Operators come in handy whenever we want to work with the variables, modify them
 
 ### Arithmetic Operators
 
+Arithmetic Operators can be used to perform operations with numbers.
+
 #### Addition
+
+For this operation in JavaScript, we use "+" operator. For Example:
+
+```javascript
+let nr1 = 12;
+let nr2 = 14;
+let result1 = nr1 + nr2;
+```
 
 #### Subtraction
 
