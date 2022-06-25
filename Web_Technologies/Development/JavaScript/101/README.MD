@@ -472,6 +472,21 @@ let nr2 = 14;
 let result1 = nr1 + nr2;
 ```
 
+For concatenating strings, we can also use this operator. For Example:
+
+```javascript
+let str1 = "Hello ";
+let str2 = "addition";
+let result2 = str1 + str2;
+```
+
+The output of printing `result1` and `result2` will be as follows:
+
+```console
+26
+Hello addition
+```
+
 #### Subtraction
 
 #### Multiplication
