@@ -377,3 +377,10 @@ let strToNr = "";
 strToNr = Number(strToNr);
 console.log("empty string ", strToNr, typeof strToNr);
 ```
+
+This will output:
+
+```console
+null 0 number
+empty string 0 number
+```
