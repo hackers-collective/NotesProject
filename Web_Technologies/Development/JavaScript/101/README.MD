@@ -271,3 +271,56 @@ Same null: false
 ```
 
 This shows that an automatically undefined variable (lastName) and a deliberately undefined variable (badPracticeToFollow), are considerd equal, which is problematic. On the other hand, lastName and betterOption, which was explicitly declared with a value of null, are not equal.
+
+## Data Types analysis and modifications
+
+### Working out the type of a variable
+
+To determine what kind of data type you are dealing with especially with null and undefined, the role of `typeof` comes into play.
+
+typeof, an operator in JavaScript, returns the type of the variable, and you can check the type of a variable by entering typeof, then either a space followed by the variable, or the variable in brackets. For Example:
+
+```javascript
+testVar = 1;
+varTypeTest1 = typeof testVar;
+varTypeTest2 = typeof(testVar);
+
+console.log(varTypeTest1);
+console.log(varTypeTest2);
+```
+
+Both of the methods above will output number. Brackets aren't required because typeof is an operator, not a method, unlike console.log. But, using brackets makes your code easier to read.
+
+More Examples:
+
+```javascript
+let str = "Hi";
+let nr = 812;
+let bigNr = 12345678901234n;
+let bool = false;
+let sym = Symbol("unique");
+let unDef = undefined;
+let unknown = null;
+
+console.log("str ", typeof str);
+console.log("nr ", typeof nr);
+console.log("bigNr ", typeof bigNr);
+console.log("bool ", typeof bool);
+console.log("sym ", typeof sym);
+console.log("unDef ", typeof unDef);
+console.log("unknown ", typeof unknown);
+```
+
+This will produce the following output:
+
+```console
+str String
+nr number
+bigNr bigint
+bool boolean
+sym symbol
+unDef undefined
+unknown object
+```
+
+**Important:** Because of backward compatibility problem, null returns object.
