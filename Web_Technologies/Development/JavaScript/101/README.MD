@@ -459,3 +459,38 @@ false boolean
 Operators come in handy whenever we want to work with the variables, modify them, perform calculations on them, and compare them. We use them to operate on our variables.
 
 ### Arithmetic Operators
+
+#### Addition
+
+#### Subtraction
+
+#### Multiplication
+
+#### Division
+
+#### Exponentiation
+
+#### Modulus
+
+#### Unary Operators: Increment and Decrement
+
+#### Combining the operators
+
+
+### Assignment Operators
+
+### Comparison Operators
+
+#### Equal
+
+#### Not Equal
+
+#### Greater than and Smaller than
+
+### Logical Operators
+
+#### And
+
+#### Or
+
+#### Not
