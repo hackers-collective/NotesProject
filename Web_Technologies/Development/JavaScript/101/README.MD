@@ -247,3 +247,27 @@ null is a special value for describing that a variable is empty or has an unknow
 ```javascript
 let empty = null;
 ```
+
+The `undefined` issue can be solved with `null`
+
+In previous issue we encountered with setting a variable as undefined, but if you set it to null, you will not have the same problem. 
+
+It is one of the great use cases of `null` to assign null to a variable when you want to say it is empty and unknown at first:
+
+```javascript
+let badPracticeToFollow = undefined;
+let lastName;
+console.log("Same undefined: ", lastName === badPracticeToFollow);
+
+let bestPractice = null;
+console.log("Same null: ", lastName === betterOption);
+```
+
+This outputs the following:
+
+```console
+Same undefined: true
+Same null: false
+```
+
+This shows that an automatically undefined variable (lastName) and a deliberately undefined variable (badPracticeToFollow), are considerd equal, which is problematic. On the other hand, lastName and betterOption, which was explicitly declared with a value of null, are not equal.
