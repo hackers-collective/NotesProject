@@ -324,3 +324,32 @@ unknown object
 ```
 
 **Important:** Because of backward compatibility problem, null returns object.
+
+### Type Conversion
+
+THe variables in JavaScript can change types.
+JavaScript can automatically change the type on the fly unlike other languages. For Example:
+
+```javascript
+let nr1 = 2; // A Number
+let nr2 = "2"; // A Sring
+
+console.log(nr1 * nr2);
+```
+
+JavaScript does not just throw an error, it first tries to convert the string value to a number.
+
+In this case, console.log will output the 4 in the console.
+
+But, it seems not a good practice to follow; For Example:
+
+```javascript
+let nr1 = 2;
+let nr2 = "2";
+
+console.log(nr1 + nr2);
+```
+
+This one will log 22. Because, the plus sign here is used to concatenate strings. Therefore, instead of converting a string to a number, it is converting a number to a string, and making them 22.
+
+There are 3 built-in functions we can use to convert the data type of our variable: String(), Number(), and Boolean().
