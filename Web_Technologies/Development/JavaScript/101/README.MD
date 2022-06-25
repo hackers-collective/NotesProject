@@ -358,4 +358,5 @@ console.log(nr1 + nr2);
 
 This one will log 22. Because, the plus sign here is used to concatenate strings. Therefore, instead of converting a string to a number, it is converting a number to a string, and making them 22.
 
-There are 3 built-in functions we can use to convert the data type of our variable: String(), Number(), and Boolean().
+There are 3 built-in functions we can use to convert the data type of our variable: String(), Number(), and Boolean()
+
