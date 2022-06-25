@@ -233,3 +233,15 @@ It is possible to assign an `undefined` value purposefully; but it is even more 
 ```javascript
 let badPracticeToFollow = undefined;
 ```
+
+There are number of reasons to not do this. For Example
+
+If you're checking for equality, you would want to know whether two values are actually equal, not just that they are both undefined. This way, someone's pet and their last name might be considered equal, whereas they are actually both just empty values.
+
+### null
+
+null is a special value for describing that a variable is empty or has an unknown value. The keyword `null` is case sensitive.
+
+```javascript
+let empty = null;
+```
