@@ -359,3 +359,9 @@ console.log(nr1 + nr2);
 This one will log 22. Because, the plus sign here is used to concatenate strings. Therefore, instead of converting a string to a number, it is converting a number to a string, and making them 22.
 
 There are 3 built-in functions we can use to convert the data type of our variable: String(), Number(), and Boolean()
+
+String() converts a variable to type String; takes any value, including undefined and null, and puts quotes around it.
+
+Number() tries to convert a variable to a number. If that cannot be done logically, it will change the value into NaN (not a number).
+
+Boolean() converts a variable to a Boolean. This will be true for everything except for null, undefined, 0 (number), an empty string, and NaN.
