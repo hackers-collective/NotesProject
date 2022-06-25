@@ -229,3 +229,7 @@ Undefined
 ```
 
 It is possible to assign an `undefined` value purposefully; but it is even more important to know that manual assignment of `undefined` as a value is not a good practice in Code Writing.
+
+```javascript
+let badPracticeToFollow = undefined;
+```
