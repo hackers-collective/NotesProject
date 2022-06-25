@@ -250,7 +250,7 @@ let empty = null;
 
 The `undefined` issue can be solved with `null`
 
-In previous issue we encountered with setting a variable as undefined, but if you set it to null, you will not have the same problem. 
+In previous issue we encountered with setting a variable as undefined, but if you set it to null, you will not have the same problem.
 
 It is one of the great use cases of `null` to assign null to a variable when you want to say it is empty and unknown at first:
 
