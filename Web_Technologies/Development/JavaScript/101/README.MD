@@ -547,6 +547,22 @@ NaN
 
 #### Division
 
+Like other operators, division straightforwardly works by dividing two number with the / character. For Example:
+
+```javascript
+let nr1 = 30;
+let nr2 = 5;
+
+let result1 = nr1 / nr2;
+console.log(result1);
+```
+
+This will simply output:
+
+```console
+6
+```
+
 #### Exponentiation
 
 #### Modulus
