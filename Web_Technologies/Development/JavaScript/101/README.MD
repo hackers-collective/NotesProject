@@ -68,17 +68,21 @@ In JS, following are the different ways to declare a string:
 
 The difference between single quotes and double quotes is that you can use single quotes as [literal characters](/Programming_Languages/README.MD/#terminologies) in dobule quotes strings, and vice-versa.
 
-- If you declare a string with dingle quotes, and string itself contains a single quote character, the string will end as soon as second quote is detected, even if it's in the middle of a word.
+- If you declare a string with dingle quotes, and string itself contains a single quote character, the string will end as soon as second quote is detected, even if it's in the middle of a word. For Example: 
 
-- For Example: ```let activity = 'Let's do this';```
+```javascript
+let activity = 'Let's do this';
+```
 
-- It can be solved using Double Quotes instead of single quotes, and it will also work vice-versa — in case there is a double quote character in your string.
-
-- For Example: ```"Let's do this";```
+- It can be solved using Double Quotes instead of single quotes, and it will also work vice-versa — in case there is a double quote character in your string. For Example: 
+ 
+```javascript
+let activity = "Let's do this";
+```
 
 In a string, using backticks, you can point to variables and the variable's value will be substituted in the line.
 
-- Example Code Snippet
+Example Code Snippet
 
 ```javascript
 let language = "JavaScript";
@@ -96,7 +100,9 @@ For Example: ```let string1 = "Hello, What's your name? Is it \"Vikash\"?";```
 
 and will work in this way also
 
-```let string2 = 'Hello, What\'s your name? Is it "Mike"?';```
+```javascript
+let string2 = 'Hello, What\'s your name? Is it "Mike"?';
+```
 
 It all happening normally because the backslash before the quote character gives the quote character a different meaning that it should be a literal character instead of an indicator to end string.
 
