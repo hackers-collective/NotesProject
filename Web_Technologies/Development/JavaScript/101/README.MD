@@ -453,3 +453,5 @@ This one will log the following:
 true boolean
 false boolean
 ```
+
+## Operators
