@@ -13,6 +13,8 @@
   - [BigInt](#bigint)
   - [Boolean](#boolean)
   - [Symbol](#symbol)
+  - [Undefined](#undefined)
+  - [null](#null)
 
 ## Variables
 
