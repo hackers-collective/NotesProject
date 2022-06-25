@@ -3,6 +3,8 @@
 ## Categorical Index
 
 - [Basics](#basics)
+- [In-Built Functions or Methods](#in-built-functions-or-methods)
+- [Functions & Classes](#functions--classes)
 
 ### Basics
 
