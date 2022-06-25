@@ -455,3 +455,7 @@ false boolean
 ```
 
 ## Operators
+
+Operators come in handy whenever we want to work with the variables, modify them, perform calculations on them, and compare them. We use them to operate on our variables.
+
+### Arithmetic Operators
