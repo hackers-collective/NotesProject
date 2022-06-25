@@ -511,7 +511,39 @@ The output is as follows:
 
 #### Multiplication
 
+We can multiply two numeric values with the * character (an operator). For Example:
 
+```javascript
+let nr1 = 15;
+let nr2 = 10;
+
+let result1 = nr1 * nr2;
+
+console.log(result1);
+```
+
+This will simply output:
+
+```console
+150
+```
+
+Unlike some other languages, we cannot successfully multiply a number and a string in JavaScript. For Example:
+
+```javascript
+let str1 = "Hi";
+let nr3 = 3;
+
+let result2 = str1 * nr3;
+
+console.log(result2);
+```
+
+Output:
+
+```console
+NaN
+```
 
 #### Division
 
