@@ -476,7 +476,6 @@ Operators come in handy whenever we want to work with the variables, modify them
 
 #### Combining the operators
 
-
 ### Assignment Operators
 
 ### Comparison Operators
