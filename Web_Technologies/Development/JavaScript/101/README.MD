@@ -360,11 +360,47 @@ This one will log 22. Because, the plus sign here is used to concatenate strings
 
 There are 3 built-in functions we can use to convert the data type of our variable: String(), Number(), and Boolean()
 
-String() converts a variable to type String; takes any value, including undefined and null, and puts quotes around it.
+String() converts a variable to type String; takes any value, including undefined and null, and puts quotes around it. For Example:
 
-Number() tries to convert a variable to a number. If that cannot be done logically, it will change the value into NaN (not a number).
+```javascript
+let nrToStr = 6;
+nrToStr = String(nrToStr);
+console.log(nrToStr, typeof nrToStr);
+```
 
-Boolean() converts a variable to a Boolean. This will be true for everything except for null, undefined, 0 (number), an empty string, and NaN.
+This will log the following:
+
+```console
+6 string
+```
+
+Number() tries to convert a variable to a number. If that cannot be done logically, it will change the value into NaN (not a number). For Example:
+
+```javascript
+let strToNr = "12";
+strToNr = Number(strToNr);
+console.log(strToNr, typeof strToNr);
+```
+
+This will log the following:
+
+```console
+12 number
+```
+
+Boolean() converts a variable to a Boolean. This will be true for everything except for null, undefined, 0 (number), an empty string, and NaN. For Example:
+
+```javascript
+let strToBool = "I'm string, I'll always return true";
+strToBool = Boolean(strToBool);
+console.log(strToBool, typeof strToBool);
+```
+
+This will log the following:
+
+```console
+true boolean
+```
 
 An empty string and null will both result in the number 0. It can come in handy at times when you want to convert a string to 0 when it is empty or null. For Example:
 
@@ -383,4 +419,18 @@ This will output:
 ```console
 null 0 number
 empty string 0 number
+```
+
+Anything that can't be interpreted as a number by simply removing the quotes will evaluate as NaN (not a number). For Example:
+
+```javascript
+let strToNr2 = "hello";
+strToNr2 = Number(strToNr2);
+console.log(strToNr2, typeof strToNr2);
+```
+
+The result that will be loggd to the console is:
+
+```console
+NaN number
 ```
