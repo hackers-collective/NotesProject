@@ -214,3 +214,18 @@ What actually happening here is JS concludes that the Strings (`str1` and `str2`
 ### Undefined
 
 JavaScript has a special data type called "undefined" for a variable that has not been assigned a value.
+
+For Example:
+
+```javascript
+let unassigned;
+console.log(unassigned);
+```
+
+The output here will be
+
+```console
+Undefined
+```
+
+It is possible to assign an `undefined` value purposefully; but it is even more important to know that manual assignment of `undefined` as a value is not a good practice in Code Writing.
