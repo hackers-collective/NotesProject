@@ -365,3 +365,15 @@ String() converts a variable to type String; takes any value, including undefine
 Number() tries to convert a variable to a number. If that cannot be done logically, it will change the value into NaN (not a number).
 
 Boolean() converts a variable to a Boolean. This will be true for everything except for null, undefined, 0 (number), an empty string, and NaN.
+
+An empty string and null will both result in the number 0. It can come in handy at times when you want to convert a string to 0 when it is empty or null. For Example:
+
+```javascript
+let nullToNr = null;
+nullToNr = Number(nullToNr);
+console.log("null ", nullToNr, typeof nullToNr);
+
+let strToNr = "";
+strToNr = Number(strToNr);
+console.log("empty string ", strToNr, typeof strToNr);
+```
