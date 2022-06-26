@@ -565,6 +565,21 @@ This will simply output:
 
 #### Exponentiation
 
+For Example:
+
+```javascript
+let nr1 = 2;
+let nr2 = 3;
+let result1 = nr1 ** nr2;
+console.log(result1);
+```
+
+We get the following output:
+
+```console
+8
+```
+
 #### Modulus
 
 #### Unary Operators: Increment and Decrement
