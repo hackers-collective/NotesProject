@@ -627,6 +627,38 @@ The output is as follows:
 
 ##### Prefix and Postfix Operators
 
+We can have the increment / decrement operator after / before operand, we call them postfix unary operator (x++) and prefix unary operator (++x) respectively.
+
+The postfix gets executed after sending the variable through, and then after that, the operation gets executed.
+
+For Example:
+
+```javascript
+let nr = 2;
+console.log(nr++);
+console.log(nr);
+```
+
+The output is as follows:
+
+```console
+2
+3
+```
+
+The prefix gets executed before sending the variable through. For Example:
+
+```javascript
+let nr = 2;
+console.log(++nr);
+```
+
+The output:
+
+```console
+3
+```
+
 #### Combining the operators
 
 Name | Symbol | Example
