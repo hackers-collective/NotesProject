@@ -629,6 +629,14 @@ The output is as follows:
 
 #### Combining the operators
 
+Name | Symbol | Example
+--- | --- | ---
+Grouping | (...) | (x + y)
+Exponentiation | ** | x ** y
+Prefix increment and decrement | --, ++ | --x, ++y
+Multiplication, division, modulus | *,/,% | x * y, x / y, x % y
+Addition and subtraction | +, - | x + y, x - y
+
 ### Assignment Operators
 
 ### Comparison Operators
