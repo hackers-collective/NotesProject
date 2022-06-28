@@ -133,12 +133,12 @@ JavaScript can represent the following different kinds of numbers: integers, dec
 For Example:
 
 ```javascript
-int intNr = 1; // Number
-int decNr = 1.5; // Decimal;
-int expNr = 1.4e15; // Exponential;
-int octNr = 0o10; // Octal; decimal version would be 8
-int hexNr = 0x3E8; // Hexadecimal; decimal version would be 1000
-int binNr = 0b101; // Binary; decimal version would be 5
+let intNr = 1; // Number
+let decNr = 1.5; // Decimal;
+let expNr = 1.4e15; // Exponential;
+let octNr = 0o10; // Octal; decimal version would be 8
+let hexNr = 0x3E8; // Hexadecimal; decimal version would be 1000
+let binNr = 0b101; // Binary; decimal version would be 5
 ```
 
 All the above numbers are of the number data type.
