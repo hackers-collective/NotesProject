@@ -602,6 +602,31 @@ And the output:
 
 #### Unary Operators: Increment and Decrement
 
+**Terminology:** Operands are subject to the operator. So, if we say x + y, x and y are operands.
+
+We only need one operand for these operators, we often call them unary operators. If we see x++, we can read this as x = x + 1; for x-- it is x = x -1.
+
+For Example:
+
+```javascript
+let nr1 = 4;
+nr1++;
+console.log(nr1);
+
+let nr2 = 4;
+nr2--;
+console.log(nr2);
+```
+
+The output is as follows:
+
+```console
+5
+3
+```
+
+##### Prefix and Postfix Operators
+
 #### Combining the operators
 
 ### Assignment Operators
