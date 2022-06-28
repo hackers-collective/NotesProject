@@ -779,4 +779,31 @@ console.log(x > y && y < z); // Will log false
 
 #### Or
 
+For Example:
+
+```javascript
+let x = 1;
+let y = 2;
+let z = 3;
+
+console.log(x > y || y < z); // Will log true
+
+console.log(x > y || y > z); // Will log false
+```
+
 #### Not
+
+For Example:
+
+```javascript
+let x = false;
+console.log(!x); // Will log true
+```
+
+Example 2
+
+```javascript
+let x = 1;
+let y = 2;
+console.log(!(x < y)); // Will log false
+```
