@@ -661,6 +661,14 @@ The output:
 
 #### Combining the operators
 
+These operators can be combined, and it works just as it does in math. They get executed in a certain order, and not necessarily from left to right due to operator precedence.
+
+One more thing to take into accoutn here, and that is grouping, and it can be done using ( and ).
+
+- The operations between the parentheses have the highest precedence.
+
+After that, the order of the operations takes place based on the type of operation (highest precedence first) and if they are of equal precedence, they take place from left to right.
+
 Name | Symbol | Example
 --- | --- | ---
 Grouping | (...) | (x + y)
@@ -670,6 +678,25 @@ Multiplication, division, modulus | *,/,% | x * y, x / y, x % y
 Addition and subtraction | +, - | x + y, x - y
 
 ### Assignment Operators
+
+"=" character is used for basic assignment.
+
+Every binary arithmetic operator has a corresponding assignment operator to write a shorter piece of code. For Example:
+
+```javascript
+let x = 2;
+x += 2; // x = x + 2; It will be 4
+
+x -= 2; // x = x - 2; It will be 2
+
+x *= 6; // x = x * 6; It will be 12
+
+x /= 3; // x = x / 3; It will be 4
+
+x **= 2; // x = x**2; It will be 16
+
+x %= 3; // x = x % 3; It will be 1
+```
 
 ### Comparison Operators
 
