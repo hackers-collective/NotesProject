@@ -15,6 +15,8 @@ Creating Global-Scoped Variable | `var y = 22;`
 Creating Constant Variable | `const pi = 3.14;`
 Creating String | Using Double Quotes: <br>`let activity = "Let's do this";` <br>Using Backslash to use Single Quote: <br>`let activity = 'Let\'s do this';`
 Creating Symbol | `let sym = Symbol("Some String");`
+Creating Integer, Decimals & Unsigned Variable | ```let intNr = 1;```<br>```let decNr = 1.5;```<br>```let unNr = -111;```
+Creating Exponential, Octal, Hexadecimal & Binary | ```let expNr = 1.4e15;```<br>```let octNr = 0o10;```<br>```let hexNr = 0x3E8;```<br>```let binNr = 0b101;```
 
 ### In-Built Functions or Methods
 
