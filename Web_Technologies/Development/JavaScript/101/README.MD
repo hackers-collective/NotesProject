@@ -700,15 +700,82 @@ x %= 3; // x = x % 3; It will be 1
 
 ### Comparison Operators
 
+Outcome of the comparison operators is always a Boolean: true or false.
+
 #### Equal
+
+Equality operators determine whether two values are equal. They come in two flavors: equal value only (==), or equal value and data type (===).
+
+The first one returns two when the values are equal, even though the type is different, while the second returns true only when the value and the type are the same: For Example:
+
+```javascript
+let x = 5;
+let y = "5";
+
+console.log(x == y); // it will only check for equal value and not for data type.
+
+console.log(x === y); // it will evaluate both the value and the data type to determine whether bot sides are equal or not.
+```
 
 #### Not Equal
 
+Not Equal (!=) Operator, similar to equal, except it does the opposite. It returns true when two variables are not equal, and false when they are equal.
+
+```javascript
+let x = 5;
+let y = "5";
+
+console.log(x != y) // This will log false to the console
+
+console.log(x !== y) // This will conclude that since x and y have different data types, they are not the same, and will log true to the console.
+```
+
 #### Greater than and Smaller than
+
+Greater than & Smaller than operator returns true if the left-hand side is greater than the right one, and the left-hand side is smaller than the right one respectively.
+
+We also have a greater than or equal to (>=) & smaller than or equal to (<=), which returns true if the left-hand side is greater than or equal to the right one, and if the left-hand side is smaller than or equal to the right one respectively.
+
+For Example:
+
+```javascript
+let x = 5;
+let y = 6;
+
+console.log(y > x); // Will log true, because y is greater than x
+
+console.log(x > y); // Will log false, because x is not greater than y
+
+console.log(y > y);
+
+console.log(y >= y);
+
+console.log(y < x); // Will lof false, because y is not smaller than x
+
+console.log(x < y); // Will log true, because x is smaller than y
+
+console.log(y < y); // Log False
+
+console.log(y <= y); // Log True
+```
 
 ### Logical Operators
 
+Used when you want to check two conditions in one.
+
 #### And
+
+For Example:
+
+```javascript
+let x = 1;
+let y = 2;
+let z = 3;
+
+console.log(x < y && y < z); // Will log true
+
+console.log(x > y && y < z); // Will log false
+```
 
 #### Or
 
