@@ -582,6 +582,24 @@ We get the following output:
 
 #### Modulus
 
+Modulus (% operator in JavaScript) is the operation in which you determine how much is left after dividing a number by another number in its entirety.
+
+The outcome will be the remainder, or what is left over. For Example:
+
+```javascript
+let nr1 = 10;
+let nr2 = 3;
+
+let result1 = nr1 % nr2;
+console.log(`${nr1} % ${nr2} = ${result1}`);
+```
+
+And the output:
+
+```console
+10 % 3 = 1
+```
+
 #### Unary Operators: Increment and Decrement
 
 #### Combining the operators
