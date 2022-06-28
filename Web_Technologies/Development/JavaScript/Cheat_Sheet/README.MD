@@ -17,6 +17,7 @@ Creating String | Using Double Quotes: <br>`let activity = "Let's do this";` <br
 Creating Symbol | `let sym = Symbol("Some String");`
 Creating Integer, Decimals & Unsigned Variable | ```let intNr = 1;```<br>```let decNr = 1.5;```<br>```let unNr = -111;```
 Creating Exponential, Octal, Hexadecimal & Binary | ```let expNr = 1.4e15;```<br>```let octNr = 0o10;```<br>```let hexNr = 0x3E8;```<br>```let binNr = 0b101;```
+Creating BigInt | ```let bigNr = 90071992547409920n;```
 
 ### In-Built Functions or Methods
 
