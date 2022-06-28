@@ -19,6 +19,7 @@ Creating Integer, Decimals & Unsigned Variable | ```let intNr = 1;```<br>```let 
 Creating Exponential, Octal, Hexadecimal & Binary | ```let expNr = 1.4e15;```<br>```let octNr = 0o10;```<br>```let hexNr = 0x3E8;```<br>```let binNr = 0b101;```
 Creating BigInt | ```let bigNr = 90071992547409920n;```
 Creating Boolean | ```let boolVar = false;```
+Creating Undefined & null | For Undefined: <br>```let badPracticeToFollow = undefined;```<br>For null: <br>```let empty = null;```
 
 ### In-Built Functions or Methods
 
