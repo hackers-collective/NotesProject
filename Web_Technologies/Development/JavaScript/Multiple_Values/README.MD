@@ -58,3 +58,32 @@ TypeError: Assignment to constant variable.
 ```
 
 ### Accessing Elements
+
+We can access elements of the array by referencing the array's index.
+
+JavaScript assigns an index to every value of the array itself.
+
+Generally, the first value is assigned the position of 0, the second 1, the third 2, and so on.
+
+To call a specific value of the array based on its position, we can use the name of our array, add square breackets to the end, and put the index we want to access between the square brackets, like this
+
+ARRAY[n]
+
+For Example:
+
+```javascript
+bikes = ["KTM", "Suzuki", "BMW", "Royal Enfield"];
+console.log(bikes[1]);
+```
+
+It will output the following:
+
+```console
+Suzuki
+```
+
+Because, Suzuki is at index position 1.
+
+If we use -1 as index value to call the item, it will output undefined instead of throwing an Error.
+
+### Overwriting Elements
