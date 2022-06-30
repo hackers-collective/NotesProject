@@ -114,3 +114,20 @@ ARRAY[-1] = "Something"
 Still, it will output the something for -1.
 
 ### Built-in length property
+
+In JS, the arrays have a very useful built-in property called length. This will return the number of values that the array has. For Example:
+
+```javascript
+colors = ["black","orange","pink"];
+emptyArray = [];
+
+console.log("Lenght of colors: ", colors.length);
+console.log("Length of empty array: ", emptyArray.length);
+```
+
+This will log the following:
+
+```console
+Length of colors: 3
+Length of empty array: 0
+```
