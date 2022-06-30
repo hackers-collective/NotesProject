@@ -87,3 +87,9 @@ Because, Suzuki is at index position 1.
 If we use -1 as index value to call the item, it will output undefined instead of throwing an Error.
 
 ### Overwriting Elements
+
+Elements in an array can be overwritten. This can be done by accessing a certain element using the index and assigning a new value. For Example:
+
+```javascript
+
+```
