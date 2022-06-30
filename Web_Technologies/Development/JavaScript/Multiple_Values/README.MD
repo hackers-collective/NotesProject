@@ -131,3 +131,9 @@ This will log the following:
 Length of colors: 3
 Length of empty array: 0
 ```
+
+Length is always one higher than the maximum index because the index of the array starts at 0.
+
+To access the last element of an array:
+
+`lastElement = Array[Array.length - 1];`
