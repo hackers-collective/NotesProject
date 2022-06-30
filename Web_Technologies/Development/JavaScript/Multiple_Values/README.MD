@@ -2,6 +2,11 @@
 
 For more complex programming, objects and arrays can contain multiple values.
 
+## Index
+
+- [Arrays and their properties](#arrays-and-their-properties)
+  - [Creating Arrays](#creating-arrays)
+
 ## Arrays and their properties
 
 In JS, Arrays are lists of values of all data types and it is possible for one array to contain different data types.
@@ -137,3 +142,30 @@ Length is always one higher than the maximum index because the index of the arra
 To access the last element of an array:
 
 `lastElement = Array[Array.length - 1];`
+
+The length of the array only counts the integer numbers starting from 0 up to the highest filled index. If there are elements in the middle of the sequence that do not have a value, they will still get counted. For Example:
+
+```javascript
+numbers = [12, 24, 36];
+numbers[5] = 48;
+
+console.log(numbers.length);
+```
+
+In this case, the length becomes 6.
+
+If we log the array, we can see why:
+
+```javascript
+console.log("numbers", numbers);
+```
+
+The output will be as follows:
+
+```console
+numbers [ 12, 24, 36, <2 empty items>, 48 ]
+```
+
+Because we added an element, 48, at index 5, it also created 2 elements at index positions 3 and 4 containing empty values.
+
+## Array Methods
