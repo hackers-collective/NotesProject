@@ -169,3 +169,5 @@ numbers [ 12, 24, 36, <2 empty items>, 48 ]
 Because we added an element, 48, at index 5, it also created 2 elements at index positions 3 and 4 containing empty values.
 
 ## Array Methods
+
+Methods are functions ona certain object. Instead of holding a value, like properties, they perform actions.
