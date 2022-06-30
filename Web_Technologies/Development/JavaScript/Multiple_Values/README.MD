@@ -91,5 +91,26 @@ If we use -1 as index value to call the item, it will output undefined instead o
 Elements in an array can be overwritten. This can be done by accessing a certain element using the index and assigning a new value. For Example:
 
 ```javascript
-
+bikes[0] = "Ducati";
+console.log(bikes[0]);
 ```
+
+It will log Ducati instead of KTM because it has overwritten the old value. Let's output the whole array:
+
+```javascript
+console.log(bikes);
+```
+
+Output:
+
+```console
+['Ducati', 'Suzuki, 'BMW', 'Royal Enfield']
+```
+
+And, if we update a negative index as
+
+ARRAY[-1] = "Something"
+
+Still, it will output the something for -1.
+
+### Built-in length property
