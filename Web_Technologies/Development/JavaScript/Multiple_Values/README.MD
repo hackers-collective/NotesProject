@@ -171,3 +171,7 @@ Because we added an element, 48, at index 5, it also created 2 elements at index
 ## Array Methods
 
 Methods are functions ona certain object. Instead of holding a value, like properties, they perform actions.
+
+We can add elements using new indices, but this is not a proper way to do it as it is easy to make mistakes and accidentally overwrite a certain value or skip a certain index.
+
+### Adding and Replacing elements
