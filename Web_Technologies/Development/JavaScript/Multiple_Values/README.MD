@@ -202,3 +202,25 @@ Here is the new array:
 ```console
 [ 'grapefruit', 'orange', 'lemon', 'tangerine', 'lime' ]
 ```
+
+To add elements at a certain index; you can use `splice()` method. For Example:
+
+```javascript
+let arrOfShapes = ["circle", "triangle", "rectangle", "pentagon"];
+arrOfShapes.splice(2, 0, "square", "trapezoid");
+
+console.log(arrOfShapes);
+```
+
+It will log:
+
+```console
+[
+ 'circle',
+ 'triangle',
+ 'square',
+ 'trapezoid',
+ 'rectangle',
+ 'pentagon'
+]
+```
