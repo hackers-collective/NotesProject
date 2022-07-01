@@ -27,6 +27,15 @@ Particular [Example] | Usage [Use Cases & Example]
 --- | ---
 `console.log` | To Output something on Console
 
+### Multiple Values
+
+Particular [Example] | Usage [Use Cases & Example]
+--- | ---
+Creating Array | `let arr = ["Black","Orange","Pink"];`
+Creating Mixed Array | `let arr = ["Hey There!", 812, false];`
+Updating Const Array Element | `const arr = ["Hey There"];`<br>`arr[0] = "Hi There";`
+Accessing Element | ARRAY[n]; where n is an index position.<br>`console.log(arr[0]);`
+
 ### Functions & Classes
 
 Particular [Example] | Usage [Use Cases & Example]
