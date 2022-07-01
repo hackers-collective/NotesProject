@@ -175,3 +175,30 @@ Methods are functions ona certain object. Instead of holding a value, like prope
 We can add elements using new indices, but this is not a proper way to do it as it is easy to make mistakes and accidentally overwrite a certain value or skip a certain index.
 
 ### Adding and Replacing elements
+
+We can add elements with the push() method. For Example:
+
+```javascript
+favoriteFruits = ["grapefruit", "orange", "lemon"];
+favoriteFruits.push("tangerine");
+```
+
+The value gets added to the end of the array. The push method returns the new length of the array, four in this case.
+
+You can store this length in a variable like this:
+
+```javascript
+let lengthOfFavoriteFruits = favoriteFruits.push("lime");
+```
+
+The value 5 gets stored in the `lengthOfFavoriteFruits` variable. If we log our array, `favoriteFruits`, like this:
+
+```javascript
+console.log(favoriteFruits);
+```
+
+Here is the new array:
+
+```console
+[ 'grapefruit', 'orange', 'lemon', 'tangerine', 'lime' ]
+```
