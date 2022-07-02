@@ -253,3 +253,18 @@ We can use concat() method to directly add either a single value, or comma-seper
 ARR = ARR1.concat(1,3,4);
 
 ### Deleting elements
+
+There are several ways to delete elements from an array.
+
+To Remove last element, you can use `pop()`. For Example
+
+```javascript
+arr = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+arr.pop();
+```
+
+This will result:
+
+```console
+[ 1, 2, 3, 4, 5, 6, 7, 8 ]
+```
