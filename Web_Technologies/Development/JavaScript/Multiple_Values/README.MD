@@ -224,3 +224,26 @@ It will log:
  'pentagon'
 ]
 ```
+
+As you can see, the square and trapezoid get inserted on index 2. The rest of the array is shifting to the right. The splice() method takes multiple parameters. The first parameter, 2 in our case, is the index of the array on which we want to start inserting. The second parameter, 0 in our case, is the number of elements we want to delete starting at our previously defined starting index.
+
+The parameters after these first two, square and trapezoid in our case, are whatever should be inserted starting at the start index.
+
+You can add another array to your array using `concat()` method.
+
+For Example:
+
+```javascript
+let arr1 = [1, 2, 3];
+let arr2 = [4, 5, 6];
+
+let arr = arr1.concat(arr2);
+
+console.log(arr);
+```
+
+This will output:
+
+```console
+[ 1, 2, 3, 4, 5, 6 ]
+```
