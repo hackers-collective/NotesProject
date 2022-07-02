@@ -371,3 +371,20 @@ After executing this sort() method, the value of ages is:
 ```console
 [ 18, 33, 40, 56, 72 ]
 ```
+
+### Reversing
+
+The elements of the array can be reversed by calling the built-in method, reverse(), on an array. It puts the last element first, and the first element last. It does not matter whether the array is sorted or not; it just reverses the order.
+
+For Example:
+
+```javascript
+let names = ["James", "Alicia", "Fatiha", "Maria", "Bert"];
+names.reverse();
+```
+
+The new order will be:
+
+```console
+[ 'Maria', 'James', 'Fatiha', 'Bert', 'Alicia' ]
+```
