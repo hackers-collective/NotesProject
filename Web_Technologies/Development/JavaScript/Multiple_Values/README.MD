@@ -304,3 +304,5 @@ The array then becomes:
 ```console
 [ <1 empty item>, 6, 7, 8 ]
 ```
+
+### Finding Elements
