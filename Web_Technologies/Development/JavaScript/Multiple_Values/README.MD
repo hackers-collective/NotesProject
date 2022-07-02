@@ -332,3 +332,12 @@ let findIndex3 = arr.indexOf(6, 2);
 ```
 
 In this case, the value of findIndex3 will be -1, because 6 cannot be found starting from index 2.
+
+To find the last occurrence of same value happening multiple times in an array, we can use lastIndexOf() method. For Example:
+
+```javascript
+let animals = ["dog", "horse", "cat", "platypus", "dog"];
+let lastDog = animals.lastIndexOf("dog");
+```
+
+The value of lastDog will be 4 because that is the last occurrence of dog in the array.
