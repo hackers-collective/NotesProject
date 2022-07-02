@@ -268,3 +268,39 @@ This will result:
 ```console
 [ 1, 2, 3, 4, 5, 6, 7, 8 ]
 ```
+
+To delete the first element, you can use `shift()`. This causes all other indices to be reduced by one. For Example:
+
+```javascript
+arr.shift();
+```
+
+This will output:
+
+```console
+[ 2, 3, 4, 5, 6, 7, 8 ]
+```
+
+We can also use splice to delete values. We specify the index from where we want to start deleting, and then the number of elemets we want to delete.
+
+```javascript
+arr.splice(1, 3);
+```
+
+Afrer this, the value of the array is as follows:
+
+```console
+[ 2, 6, 7, 8 ]
+```
+
+If you're relying on index or lengh of an array for some reason or real use case; you can use delete operator to delete any element without changing any of the later indices. For Example:
+
+```javascript
+delete arr[0];
+```
+
+The array then becomes:
+
+```console
+[ <1 empty item>, 6, 7, 8 ]
+```
