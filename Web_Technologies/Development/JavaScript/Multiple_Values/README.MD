@@ -247,3 +247,9 @@ This will output:
 ```console
 [ 1, 2, 3, 4, 5, 6 ]
 ```
+
+We can use concat() method to directly add either a single value, or comma-seperate multiple values.
+
+ARR = ARR1.concat(1,3,4);
+
+### Deleting elements
