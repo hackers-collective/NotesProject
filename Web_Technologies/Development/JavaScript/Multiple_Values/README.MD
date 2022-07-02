@@ -341,3 +341,33 @@ let lastDog = animals.lastIndexOf("dog");
 ```
 
 The value of lastDog will be 4 because that is the last occurrence of dog in the array.
+
+### Sorting
+
+In JS, a built-in method `sort()` can sort numbers from small to high and strings A-Z.
+
+For Example:
+
+```javascript
+let names = ["James", "Alicia", "Fatiha", "Maria", "Bert"];
+names.sort();
+```
+
+The values of names after soring is as follows:
+
+```console
+[ 'Alicia', 'Bert', 'Fatiha', 'James', 'Maria' ]
+```
+
+For numbers, it is sorting them in ascending order, as you can see in the following code snippet:
+
+```javascript
+let ages = [18, 72, 33, 56, 40];
+ages.sort();
+```
+
+After executing this sort() method, the value of ages is:
+
+```console
+[ 18, 33, 40, 56, 72 ]
+```
