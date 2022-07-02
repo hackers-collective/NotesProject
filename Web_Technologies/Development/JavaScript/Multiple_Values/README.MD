@@ -306,3 +306,29 @@ The array then becomes:
 ```
 
 ### Finding Elements
+
+We can use `find()` method to check whether a value is present in an array. It actually executes on every lement in the array until it finds a match, and i it does not, then it will return `undefined`.
+
+To know on what position an element is, we can use the `index()` method. It returns the index on which the value is found.
+
+If a value occurs in an array more than once, it will return the first occurrence. If the value is not found, it will return -1. For Example:
+
+```javascript
+arr = [2, 6, 7, 8];
+
+let findIndex = arr.indexOf(6);
+let findIndex = arr.indexOf(10);
+
+console.log(findIndex, findIndex2);
+```
+
+So, the first one will return 1 since that is the index position of 6 in the array. The second one will return -1 because the array does not contain 10.
+
+To find the next occurrence of the specified number, you can add a second argument to indexOf(), specifying from which position it should start searching. For Example:
+
+```javascript
+arr = [2, 6, 7, 8];
+let findIndex3 = arr.indexOf(6, 2);
+```
+
+In this case, the value of findIndex3 will be -1, because 6 cannot be found starting from index 2.
