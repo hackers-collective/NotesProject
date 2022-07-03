@@ -575,3 +575,60 @@ We have now used an array in our company object. You can simply use an array wit
 ```javascript
 let activity = company.activities[1];
 ```
+
+#### Objects in arrays
+
+For Example:
+
+```javascript
+let addresses = [{
+    street: "2nd street",
+    number: "123",
+    zipcode: "33116",
+    city: "Miami",
+    state: "Florida"
+  },
+  {
+    street: "1st West avenue",
+    number: "5",
+    zipcode: "75001",
+    city: "Addison",
+    state: "Texas"
+ }];
+```
+
+So, the arrays can be recognized by the square brackets and the objects by the curly brackets. The street name of the first object can be fetched using this statement:
+
+```javascript
+let streetName = addresses[0].street;
+```
+
+#### Objects in arrays in objects
+
+```javascript
+company = { companyName: "Healthy Candy",
+        activities: [ "food manufacturing", 
+"improving kids' health", "manufacturing toys"],
+        address: [{
+          street: "2nd street",
+          number: "123",
+          zipcode: "33116",
+          city: "Miami",
+          state: "Florida"
+        },
+        {
+          street: "1st West avenue",
+          number: "5",
+          zipcode: "75001",
+          city: "Addison",
+          state: "Texas"
+        }],
+        yearOfEstablishment: 2021
+ };
+```
+
+To access elements of increasingly nested objects and arrays, we simply extend the same logic you have seen in the previous sections. To access the street name of Healthy Candy's first address, we can use the following code:
+
+```javascript
+let streetName = company.address[0].street;
+```
