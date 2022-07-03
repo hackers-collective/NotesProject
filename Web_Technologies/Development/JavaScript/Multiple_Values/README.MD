@@ -483,3 +483,7 @@ There is another way to do this. Instead of the square brackets [], the property
 ```javascript
 let dogColor2 = dog.color;
 ```
+
+It is the same way how we call methods. The difference between properties and methods is the lack of parentheses () for properties.
+
+## Updating Objects
