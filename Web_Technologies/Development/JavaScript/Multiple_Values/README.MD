@@ -444,3 +444,30 @@ The first step is to get the second array of arrays, so index 1. Then we need to
 This is useful in Matrices.
 
 ## Objects in JavaScript
+
+Objects is another complex data structure that can contain more than one value: objects
+
+Objects are very useful and can be used to describe real-life objects as well as more complex abstract concepts that allow for more flexibility in your code.
+
+Arrays are objects with indexed properties, and all the other objects are objects with named properties.
+
+That means, unlike Arrays which automatically generate index number, we can give it a custom descriptive name in Objects.
+
+An object is a chance to group multiple variables into one. This is done with curly brackets: { and }.
+
+For Example:
+
+```javascript
+let dog = { 
+  dogName: "JavaScript",
+  weight: 2.4,
+  color: "brown",
+  breed: "chihuahua",
+  age: 3,
+  burlgarBitter: true
+}
+```
+
+To remember the equation of whether something should be a property, try the following template sentence in your head.
+
+**\*objectname\*** has a(n) _\*property name\*_
