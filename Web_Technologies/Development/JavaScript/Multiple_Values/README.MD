@@ -525,3 +525,53 @@ console.log(dog["breed"]);
 ```
 
 So, this will log dachshund to the console.
+
+Additionally, we can work with objects and arrays together.
+
+#### Objects in objects
+
+For Example:
+
+```javascript
+let company = { companyName: "Healthy Candy",
+              activity: "food manufacturing",
+              address: {
+                  street: "2nd street",
+                  number: "123",
+                  zipcode: "33116",
+                  city: "Miami",
+                  state: "Florida"
+              },
+              yearOfEstablishment: 2021
+ };
+```
+
+To access or modify one of the properties of the address here, we can use two 
+approaches:
+
+```javascript
+company.address.zipcode = "33117";
+company["address"]["number"] = "100";
+```
+
+#### Arrays in objects
+
+```javascript
+company = { companyName: "Healthy Candy",
+        activities: ["food manufacturing", "improving kids' health", "manufacturing toys"],
+        address: {
+          street: "2nd street",
+          number: "123",
+          zipcode: "33116",
+          city: "Miami",
+          state: "Florida"
+        },
+        yearOfEstablishment: 2021
+ };
+```
+
+We have now used an array in our company object. You can simply use an array with the square braces after the property. Retrieving the individual values is very similar. The second value of the activities array can be fetched using this statement:
+
+```javascript
+let activity = company.activities[1];
+```
