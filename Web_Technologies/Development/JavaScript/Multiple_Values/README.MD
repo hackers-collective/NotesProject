@@ -390,3 +390,45 @@ The new order will be:
 ```
 
 ## Multidimensional Arrays
+
+Arrays can contain any data type; in this sense, they can also contain other arrays, and can contain arrays inside array inside array and so on. This is called a multidimensional array.
+
+It's an array of arrays: a list of lists. For Example:
+
+```javascript
+let someValues1 = [1, 2, 3];
+let someValues2 = [4, 5, 6];
+let someValues3 = [7, 8, 9];
+
+let arrOfArrays = [someValues1, someValues2, someValues3];
+
+let arrOfArrays2 = [[1, 2, 3], [4, 5, 6], [7, 8, 9]];
+```
+
+To Access Elements of the inner arrays, you can specify an index twice.
+
+ARRAY[0][1]; => 0 is Index of Array; 1 is Index Position inside Array 0.
+
+For Example:
+
+```javascript
+let value1 = arrOfArrays[0][1];
+```
+
+The statement will grab the first array because it has an index position of 0. From this first array, it will take the second value, because it has an index position of 1. Then it stores this value in value1. That means the value of value1 will be 2.
+
+It can go many levels deep. For Example:
+
+```javascript
+arrOfArraysOfArrays = [arrOfArrays, arrOfArrays, arrOfArrays];
+```
+
+This is what the array looks like in terms of values:
+
+```console
+[
+  [ [ 1, 2, 3 ], [ 4, 5, 6 ], [ 7, 8, 9 ] ],
+  [ [ 1, 2, 3 ], [ 4, 5, 6 ], [ 7, 8, 9 ] ],
+  [ [ 1, 2, 3 ], [ 4, 5, 6 ], [ 7, 8, 9 ] ]
+]
+```
