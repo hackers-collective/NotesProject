@@ -494,3 +494,34 @@ We can change the value of the properties of the objects. Again, this is similar
 dog["color"] = "blue";
 dog.weight = 2.3;
 ```
+
+It's useful to note that if we change the data type of one of our properties. For Example:
+
+```javascript
+dog["age"] = "three";
+```
+
+This is not a problem. JavaScript will just change the whole value and data type to the new situation.
+
+Another element to note is that we are now using the literal string values to refer to the object's properties, but we can also work with variables to achieve this. So, for example:
+
+```javascript
+let variable = "age";
+console.log(dog[variable]);
+```
+
+This will still output three, as we just changed the value of age to three. If we change the value of the variable to another dog property, we will be accessing another property, like this:
+
+```javascript
+variable = "breed";
+console.log(dog[variable]);
+```
+
+This will print chihuahua. And when we update the value accessing this way, it is the exact same as when we would have accessed it with the literal string:
+
+```javascript
+dog[variable] = "dachshund";
+console.log(dog["breed"]);
+```
+
+So, this will log dachshund to the console.
