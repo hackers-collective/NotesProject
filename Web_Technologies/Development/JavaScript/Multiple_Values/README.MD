@@ -487,3 +487,10 @@ let dogColor2 = dog.color;
 It is the same way how we call methods. The difference between properties and methods is the lack of parentheses () for properties.
 
 ## Updating Objects
+
+We can change the value of the properties of the objects. Again, this is similar to an array because an array is an object as well, but for properties, we have two options. For Example:
+
+```javascript
+dog["color"] = "blue";
+dog.weight = 2.3;
+```
