@@ -432,3 +432,15 @@ This is what the array looks like in terms of values:
   [ [ 1, 2, 3 ], [ 4, 5, 6 ], [ 7, 8, 9 ] ]
 ]
 ```
+
+To get the middle element of this array, which is the value 5, belonging to the second array of arrays. It is done like this:
+
+```javascript
+let middleValue = arrOfArraysOfArrays[1][1][1];
+```
+
+The first step is to get the second array of arrays, so index 1. Then we need to get the second array of this one, which again is index 1. Now we reach the level of the values, and we need the second value, so again we use index 1.
+
+This is useful in Matrices.
+
+## Objects in JavaScript
