@@ -471,3 +471,15 @@ let dog = {
 To remember the equation of whether something should be a property, try the following template sentence in your head.
 
 **\*objectname\*** has a(n) _\*property name\*_
+
+To access the properties of this object in a very similar way as we would with array; instead of using the index number, we can use the name of the property to get the value. For Example:
+
+```javascript
+let dogColor1 = dog["color"];
+```
+
+There is another way to do this. Instead of the square brackets [], the property name can also be added to the object name with a dot in between. For Example:
+
+```javascript
+let dogColor2 = dog.color;
+```
