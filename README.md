@@ -1,4 +1,4 @@
-<p align="center"><img src="/.assets/notes-min.webp" alt="NotesProject" width="50%"></a></p><br>
+<p align="center"><img src="/.assets/notes_github_bg.webp" alt="NotesProject" width="70%"></a></p><br>
 
 <!--
 <a href="https://www.netlify.com">
