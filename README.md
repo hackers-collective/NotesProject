@@ -288,10 +288,4 @@ Tree
 
 # Recipies
 
-## Web Technologies \/ Development \/ JavaScript
-
-## Operating Systems / Linux / Red Hat
-
-- Configuring Cockpit Web Interface
-
-## Programming Languages / Python
+_In Progress..._
