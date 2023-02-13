@@ -272,4 +272,4 @@ List of Technologies / Approaches - <https://docs.google.com/spreadsheets/d/1-Hn
 
 # Recipies
 
-_In Progress..._
+_Moved to... \/ Check https://blog.notesproject.org_
