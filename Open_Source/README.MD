@@ -1,6 +1,5 @@
 # Open-Source
 
-## Websites
-
-<https://semver.org/>
-<https://opensource.guide>
+## References:
+- https://semver.org/
+- https://opensource.guide
