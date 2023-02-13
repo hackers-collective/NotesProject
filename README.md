@@ -14,14 +14,6 @@
 
 NotesProject is the largest community-powered open-source knowledge base dump for researchers and engineers.
 
-**Vision**
-
-- To help people find almost everything related to computer science and engineering.
-- Serving Humanity by helping newbies.
-
-**Tree**
-
-
 ## Get Started
 
 Open Source Guide: https://opensource.guide/
@@ -57,14 +49,6 @@ function test() {
 Official ReadMe - <https://bit.ly/README_notes> #1
 
 List of Technologies / Approaches - <https://docs.google.com/spreadsheets/d/1-HntSxB-jN4PRY2vGbxBIAPl3ltAM6SKMlcuJsruyoc/edit?usp=sharing>
-
-Tree
-
-### Features of NotesProject 2022 Edition
-
-- [ ] Transformational Learning with clear and visualized explaination
-- [ ] Error Search - Figure out why it is happening and how to resolve with detailed and clear explaination
-- [ ] Stable Version PDF Availability
 
 ## :red_circle: Big Data
 
