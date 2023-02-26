@@ -2,8 +2,6 @@
 
 ## Index
 
-\<empty\>
-
 _Check 101 of JavaScript [here](/Web_Technologies/Development/JavaScript/101/README.MD)_
 
 Invented in 1995, JavaScript is one of the widely used Programming languages especially in building interactive and dynamic web applications.
